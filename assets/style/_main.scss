@@ -1,21 +1,3 @@
-.control-slide {
-  border: 1px solid $grey;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  color: $pink;
-  margin: 3px;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: none;
-    color: $pink;
-  }
-}
-
 .adbtn {
   width: 70px;
   background: $pink;
@@ -39,11 +21,15 @@
 }
 
 .hot-ads {
-    img {
-        max-height: 280px;
-    }
+  img {
+    height: 250px;
+  }
 }
 
 .pricing {
-    align-self: flex-end;
+  align-self: flex-end;
+}
+
+.btn-collect {
+    color: $pink;
 }

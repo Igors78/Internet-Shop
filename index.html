@@ -15,12 +15,13 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    
     <link rel="stylesheet" href="assets/style/style.css" />
     <script
       src="https://kit.fontawesome.com/013fb8bd39.js"
       crossorigin="anonymous"
     ></script>
-
+    <script src="assets/scripts/script.js"></script>
     <title>INTERNET SHOP</title>
   </head>
 
@@ -107,12 +108,13 @@
       </form>
     </header>
     <main class="container-fluid">
-      <section class="hot-ads col mx-auto d-none d-md-flex flex-column">
+      <!-- #region HOT AD SLIDESHOW-->
+      <section class="hot-ads col mx-auto d-none d-md-flex flex-column mt-3">
         <h5>HOT ADS</h5>
 
         <div
           id="carouselExampleSlidesOnly"
-          class="carousel slide"
+          class="carousel slide carousel-fade"
           data-ride="carousel"
         >
           <div class="carousel-inner">
@@ -275,7 +277,7 @@
                   <h4 class="card-title">Desactivated weapons</h4>
                   <!-- Text -->
                   <h6 class="card-text">
-                    o magazine-fed versions of the Berdan ever progressed beyond
+                    No magazine-fed versions of the Berdan ever progressed beyond
                     the prototype phase. Russian troops, however, did have
                     various cartridge holders, such as the Krnka quick-loader,
                     attached to their rifles to aid in reloading.
@@ -325,9 +327,7 @@
                     Two different versions of the later single-shot Berdan rifle
                     were adopted as service weapons by Imperial Russia. The
                     first version, manufactured by Colt in the US, is known as
-                    model 1868, or Berdan I. It is a hammerless "trapdoor"
-                    breechblock design, and was manufactured in limited numbers
-                    (the contract stipulated 30,000)
+                    model 1868, or Berdan I.
                   </h6>
                   <p>By: <span class="sign"> Stranger</span></p>
                   <p>Location: <span class="sign"> Russia</span></p>
@@ -355,6 +355,12 @@
           </div>
         </div>
       </section>
+      <!-- #region COLLECTABLES SECTION-->
+      <section class="collect d-flex flex-column mt-3 row">
+        <h5>COLLECTABLES</h5>
+        <!-- Slideshow container -->
+
+      </section>
     </main>
 
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
@@ -368,6 +374,6 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
-    <script src="assets/scripts/script.js"></script>
+    
   </body>
 </html>
