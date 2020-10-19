@@ -1,3 +1,15 @@
 .navbar {
-    background: #888;
+  background: $dark;
+}
+
+.logo-text {
+  color: white;
+  font-family: "Conv_GothamBold", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.btn-nav {
+    background: $pink;
+    color: white;
 }

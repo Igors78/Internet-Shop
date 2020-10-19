@@ -40,10 +40,21 @@
 }
 
 .navbar {
-  background: #888;
+  background: #383838;
+}
+
+.logo-text {
+  color: white;
+  font-family: "Conv_GothamBold", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+.btn-nav {
+  background: #d35266;
+  color: white;
 }
 
 body {
-  font-family: "Conv_GothamLight", sans-serif;
+  font-family: "Conv_HelveticaNeueLt", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
