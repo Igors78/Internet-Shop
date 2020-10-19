@@ -39,7 +39,11 @@
   font-style: normal;
 }
 
+.navbar {
+  background: #888;
+}
+
 body {
-  font-family: "Conv_GothamLight";
+  font-family: "Conv_GothamLight", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
