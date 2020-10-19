@@ -16,15 +16,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/style/style.css" />
+    <script src="https://kit.fontawesome.com/013fb8bd39.js" crossorigin="anonymous"></script>
     <title>INTERNET SHOP</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark">
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
       <a href="#" class="navbar-logo d-flex text-decoration-none align-items-center">
         <img
           class="rounded"
-          width="80"
+          width="65"
           src="assets/img/magicball.jpg"
           alt="magic ball logo"
         />
@@ -43,15 +44,42 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a href="#" class="nav-link active">HOME</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">COLLECTIONS</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">PURCHASE LIST</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active"><i class="fas fa-home"></i> HOME</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-stroopwafel"></i> COLLECTIONS</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a></li>
             <li class="nav-item"><button class="btn btn-nav">POST AN AD</button></li>
         </ul>
-        <h2 class="logo-text pt-1">WEAPOLD</h2>
+        <h3 class="logo-text pt-1">WEAPOLD</h3>
 
     </div>
     </nav>
+    <header class="container-fluid d-flex flex-column align-content-center justify-content-center">
+        <h1 class="text-center text-white font-weight-bold">WEAPOLD</h1>
+        <h4 class="text-center text-white">Getting your dream collectable is easy as this...</h4>
+        <form class="form-inline mx-auto">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+            <label class="m-0 p-0" for="inlineFormCustomSelectPref"> </label>
+            <select class="custom-select" id="inlineFormCustomSelectPref">
+              <option selected>Section</option>
+              <option value="1">WW I</option>
+              <option value="2">WW II</option>
+              <option value="3">Miscellaneous</option>
+            </select>
+        </div>
+        <input type="text" class="form-control left-border" placeholder="Type">
+        <input type="text" class="form-control left-border" placeholder="Country">
+        <div class="input-group-prepend">
+            <button type="submit" class="btn btn-dark">SEARCH</button>
+        </div>
+        </div>
+          </form>
+
+
+    </header>
+    <main class="container-fluid">
+        
+    </main>
 
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script
@@ -64,5 +92,6 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+
   </body>
 </html>
