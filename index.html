@@ -16,20 +16,26 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/style/style.css" />
-    <script src="https://kit.fontawesome.com/013fb8bd39.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/013fb8bd39.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>INTERNET SHOP</title>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-md navbar-dark sticky-top">
-      <a href="#" class="navbar-logo d-flex text-decoration-none align-items-center">
+      <a
+        href="#"
+        class="navbar-logo d-flex text-decoration-none align-items-center"
+      >
         <img
           class="rounded"
-          width="65"
+          width="50"
           src="assets/img/magicball.jpg"
           alt="magic ball logo"
         />
-        
       </a>
       <button
         class="navbar-toggler"
@@ -40,25 +46,42 @@
         aria-expanded="false"
         aria-label="toggle nav"
       >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a href="#" class="nav-link active"><i class="fas fa-home"></i> HOME</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-stroopwafel"></i> COLLECTIONS</a></li>
-            <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a></li>
-            <li class="nav-item"><button class="btn btn-nav">POST AN AD</button></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active"
+              ><i class="fas fa-home"></i> HOME</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><i class="fas fa-stroopwafel"></i> COLLECTIONS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a
+            >
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-nav">POST AN AD</button>
+          </li>
         </ul>
         <h3 class="logo-text pt-1">WEAPOLD</h3>
-
-    </div>
+      </div>
     </nav>
-    <header class="container-fluid d-flex flex-column align-content-center justify-content-center">
-        <h1 class="text-center text-white font-weight-bold">WEAPOLD</h1>
-        <h4 class="text-center text-white">Getting your dream collectable is easy as this...</h4>
-        <form class="form-inline mx-auto">
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
+    <header
+      class="container-fluid d-flex flex-column align-content-center justify-content-center"
+    >
+      <h1 class="text-center text-white font-weight-bold">WEAPOLD</h1>
+      <h4 class="text-center text-white">
+        Getting your dream collectable is easy as this...
+      </h4>
+      <form class="form-inline mx-auto">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
             <label class="m-0 p-0" for="inlineFormCustomSelectPref"> </label>
             <select class="custom-select" id="inlineFormCustomSelectPref">
               <option selected>Section</option>
@@ -66,19 +89,272 @@
               <option value="2">WW II</option>
               <option value="3">Miscellaneous</option>
             </select>
-        </div>
-        <input type="text" class="form-control left-border" placeholder="Type">
-        <input type="text" class="form-control left-border" placeholder="Country">
-        <div class="input-group-prepend">
+          </div>
+          <input
+            type="text"
+            class="form-control left-border"
+            placeholder="Type"
+          />
+          <input
+            type="text"
+            class="form-control left-border"
+            placeholder="Country"
+          />
+          <div class="input-group-prepend">
             <button type="submit" class="btn btn-dark">SEARCH</button>
+          </div>
         </div>
-        </div>
-          </form>
-
-
+      </form>
     </header>
     <main class="container-fluid">
-        
+      <section class="hot-ads col mx-auto d-none d-md-flex flex-column">
+        <h5>HOT ADS</h5>
+
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="col card d-flex flex-row pl-0 mx-auto">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <img
+                  class="img-fluid pl-0 col-5"
+                  src="assets/img/result1.jpg"
+                  alt="Card image cap"
+                />
+
+                <!-- Card content -->
+                <div
+                  class="card-body col-7 d-flex flex-column justify-content-between p-2"
+                >
+                  <!-- Title -->
+                  <h4 class="card-title">Collectable weapons</h4>
+                  <!-- Text -->
+                  <h6 class="card-text">
+                    The Berdan rifle (винтовка Бердана/vintovka Berdana in
+                    Russian) is a Russian rifle created by the American firearms
+                    expert and inventor Hiram Berdan in 1868.
+                  </h6>
+                  <p>By: <span class="sign"> Coldwin</span></p>
+                  <p>Location: <span class="sign"> U.K.</span></p>
+                  <!-- Button -->
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text adbtn" id="basic-addon3"
+                        >450$</span
+                      >
+                    </div>
+                    <button
+                      type="text"
+                      class="form-control adbtn2"
+                      id="basic-url"
+                      aria-describedby="basic-addon3"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Cart
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Card -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col card d-flex flex-row pl-0 mx-auto">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <img
+                  class="img-fluid pl-0 col-5"
+                  src="assets/img/result2.jpg"
+                  alt="Card image cap"
+                />
+
+                <!-- Card content -->
+                <div
+                  class="card-body col-7 d-flex flex-column justify-content-between p-2"
+                >
+                  <!-- Title -->
+                  <h4 class="card-title">Berdan rifle</h4>
+                  <!-- Text -->
+                  <h6 class="card-text">
+                    The Russian Berdan I (M1868) and Berdan II (M1870) rifles of
+                    .42 caliber are distinct from the Spanish Berdan 15mm (.58+
+                    cal) conversion rifles adopted by Spain as the M1857/67
+                    Berdan (and related engineer, artillery & short rifles).
+                  </h6>
+                  <p>By: <span class="sign"> Pecano</span></p>
+                  <p>Location: <span class="sign"> Mexico</span></p>
+                  <!-- Button -->
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text adbtn" id="basic-addon3"
+                        >190$</span
+                      >
+                    </div>
+                    <button
+                      type="text"
+                      class="form-control adbtn2"
+                      id="basic-url"
+                      aria-describedby="basic-addon3"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Cart
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Card -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col card d-flex flex-row pl-0 mx-auto">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <img
+                  class="img-fluid pl-0 col-5"
+                  src="assets/img/result3.jpg"
+                  alt="Card image cap"
+                />
+
+                <!-- Card content -->
+                <div
+                  class="card-body col-7 d-flex flex-column justify-content-between p-2"
+                >
+                  <!-- Title -->
+                  <h4 class="card-title">Storm rifle</h4>
+                  <!-- Text -->
+                  <h6 class="card-text">
+                    The 10.7×58mmR cartridge used in the Berdan was also
+                    invented by Hiram Berdan, with the assistance of Russian
+                    colonel Alexander Gorlov [ru]. It was the subject of many
+                    patents in both the United States and United Kingdom.
+                  </h6>
+                  <p>By: <span class="sign"> Sergy</span></p>
+                  <p>Location: <span class="sign"> Italy</span></p>
+                  <!-- Button -->
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text adbtn" id="basic-addon3"
+                        >476$</span
+                      >
+                    </div>
+                    <button
+                      type="text"
+                      class="form-control adbtn2"
+                      id="basic-url"
+                      aria-describedby="basic-addon3"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Cart
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Card -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col card d-flex flex-row pl-0 mx-auto">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <img
+                  class="img-fluid pl-0 col-5"
+                  src="assets/img/result5.jpg"
+                  alt="Card image cap"
+                />
+
+                <!-- Card content -->
+                <div
+                  class="card-body col-7 d-flex flex-column justify-content-between p-2"
+                >
+                  <!-- Title -->
+                  <h4 class="card-title">Desactivated weapons</h4>
+                  <!-- Text -->
+                  <h6 class="card-text">
+                    o magazine-fed versions of the Berdan ever progressed beyond
+                    the prototype phase. Russian troops, however, did have
+                    various cartridge holders, such as the Krnka quick-loader,
+                    attached to their rifles to aid in reloading.
+                  </h6>
+                  <p>By: <span class="sign"> Elon</span></p>
+                  <p>Location: <span class="sign"> Spain</span></p>
+                  <!-- Button -->
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text adbtn" id="basic-addon3"
+                        >325$</span
+                      >
+                    </div>
+                    <button
+                      type="text"
+                      class="form-control adbtn2"
+                      id="basic-url"
+                      aria-describedby="basic-addon3"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Cart
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Card -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col card d-flex flex-row pl-0 mx-auto">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <img
+                  class="img-fluid pl-0 col-5"
+                  src="assets/img/result3.jpg"
+                  alt="Card image cap"
+                />
+
+                <!-- Card content -->
+                <div
+                  class="card-body col-7 d-flex flex-column justify-content-between p-2"
+                >
+                  <!-- Title -->
+                  <h4 class="card-title">Mauser rifle</h4>
+                  <!-- Text -->
+                  <h6 class="card-text">
+                    Two different versions of the later single-shot Berdan rifle
+                    were adopted as service weapons by Imperial Russia. The
+                    first version, manufactured by Colt in the US, is known as
+                    model 1868, or Berdan I. It is a hammerless "trapdoor"
+                    breechblock design, and was manufactured in limited numbers
+                    (the contract stipulated 30,000)
+                  </h6>
+                  <p>By: <span class="sign"> Stranger</span></p>
+                  <p>Location: <span class="sign"> Russia</span></p>
+                  <!-- Button -->
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text adbtn" id="basic-addon3"
+                        >450$</span
+                      >
+                    </div>
+                    <button
+                      type="text"
+                      class="form-control adbtn2"
+                      id="basic-url"
+                      aria-describedby="basic-addon3"
+                    >
+                      <i class="fas fa-shopping-cart"></i> Cart
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Card -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
@@ -92,6 +368,6 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
-
+    <script src="assets/scripts/script.js"></script>
   </body>
 </html>

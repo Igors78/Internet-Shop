@@ -1,0 +1,49 @@
+.control-slide {
+  border: 1px solid $grey;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  color: $pink;
+  margin: 3px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+    color: $pink;
+  }
+}
+
+.adbtn {
+  width: 70px;
+  background: $pink;
+  color: white;
+  border-right: 1px solid black;
+}
+
+.adbtn2 {
+  min-width: 100px;
+  background: $pink;
+  color: white;
+}
+
+.card-title {
+  color: $pink;
+}
+
+.sign {
+  color: $grey;
+  font-style: italic;
+}
+
+.hot-ads {
+    img {
+        max-height: 280px;
+    }
+}
+
+.pricing {
+    align-self: flex-end;
+}

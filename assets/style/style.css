@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Conv_GothamBold";
-  src: url("fonts/GothamBold.eot");
+  src: url("../fonts/GothamBold/");
   src: local("☺"), url("fonts/GothamBold.woff") format("woff"), url("fonts/GothamBold.ttf") format("truetype"), url("fonts/GothamBold.svg") format("svg");
   font-weight: normal;
   font-style: normal;
@@ -45,7 +45,7 @@
 
 .logo-text {
   color: white;
-  font-family: "Conv_GothamBold", sans-serif !important;
+  font-family: "Conv_GothamBold", sans-serif;
   font-weight: 700;
 }
 
@@ -63,6 +63,61 @@ header {
 
 .left-border {
   border-left: 1px solid #d35266;
+}
+
+.control-slide {
+  border: 1px solid #888;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #d35266;
+  margin: 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.control-slide:hover {
+  text-decoration: none;
+  color: #d35266;
+}
+
+.adbtn {
+  width: 70px;
+  background: #d35266;
+  color: white;
+  border-right: 1px solid black;
+}
+
+.adbtn2 {
+  min-width: 100px;
+  background: #d35266;
+  color: white;
+}
+
+.card-title {
+  color: #d35266;
+}
+
+.sign {
+  color: #888;
+  font-style: italic;
+}
+
+.hot-ads img {
+  max-height: 280px;
+}
+
+.pricing {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 body {
