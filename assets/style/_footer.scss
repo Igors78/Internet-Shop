@@ -35,6 +35,10 @@
   font-weight: bold;
   color: $grey;
   font-size: 2rem;
+
+  &:hover {
+    color: $pink;
+  }
 }
 
 .footer-logo {
@@ -67,12 +71,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.bot-logo {
-  &:hover {
-    color: $pink;
-  }
 }
 
 .card {

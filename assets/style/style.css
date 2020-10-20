@@ -247,6 +247,10 @@ header {
   font-size: 2rem;
 }
 
+.bot-logo:hover {
+  color: #d35266;
+}
+
 .footer-logo p {
   color: #888;
   font-size: 0.8rem;
@@ -285,10 +289,6 @@ header {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-
-.bot-logo:hover {
-  color: #d35266;
 }
 
 .card {

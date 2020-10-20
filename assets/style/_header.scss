@@ -1,17 +1,16 @@
 header {
   height: 50vh;
-  background:
-    linear-gradient(
-    to bottom,
-    rgba(221, 121, 136, .7) 0%,
-    rgba(236, 213, 216, .7) 72%,
-    rgba(238, 224, 226, .7) 81%,
-    rgba(241, 241, 241, .7) 94%
+  background: linear-gradient(
+      to bottom,
+      rgba(221, 121, 136, 0.7) 0%,
+      rgba(236, 213, 216, 0.7) 72%,
+      rgba(238, 224, 226, 0.7) 81%,
+      rgba(241, 241, 241, 0.7) 94%
     ),
-    url('../img/wallpaper.jpg');
+    url("../img/wallpaper.jpg");
   background-size: cover;
 }
 
 .left-border {
-    border-left: 1px solid $pink;
+  border-left: 1px solid $pink;
 }
