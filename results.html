@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <script src="https://kit.fontawesome.com/013fb8bd39.js" crossorigin="anonymous"></script>
+
+    <title>INTERNET SHOP</title>
+</head>
+<nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <a href="#" class="navbar-logo d-flex text-decoration-none align-items-center">
+        <img class="rounded" width="50" src="assets/img/magicball.jpg" alt="magic ball logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="./index.html" class="nav-link active"><i class="fas fa-home"></i> HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="#wwi" class="nav-link"><i class="fas fa-stroopwafel"></i> COLLECTIONS</a>
+            </li>
+            <li class="nav-item">
+                <a href="#bottom" class="nav-link"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-nav">POST AN AD</button>
+            </li>
+        </ul>
+        <h3 class="logo-text pt-1">WEAPOLD</h3>
+    </div>
+</nav>
+<header class="container-fluid d-flex flex-column align-content-center justify-content-center restop">
+    <h1 class="text-center text-white font-weight-bold">WEAPOLD</h1>
+    <h4 class="text-center text-white">
+        Search around thousands of items waiting to be yours...
+    </h4>
+    <form class="form-inline mx-auto">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="m-0 p-0" for="inlineFormCustomSelectPref"> </label>
+                <select class="custom-select" id="inlineFormCustomSelectPref">
+                    <option selected>Section</option>
+                    <option value="1">WW I</option>
+                    <option value="2">WW II</option>
+                    <option value="3">Miscellaneous</option>
+                </select>
+            </div>
+            <input type="text" class="form-control left-border" placeholder="Type" />
+            <input type="text" class="form-control left-border" placeholder="Country" />
+            <div class="input-group-prepend">
+                <button type="submit" class="btn btn-dark">SEARCH</button>
+            </div>
+        </div>
+    </form>
+</header>
+<main class="result-main container-fluid">
+    <section class="row results">
+        <article class="search col-12 col-md-4 p-md-5">
+            <div class="chekboxes mx-md-4 py-2">
+                <!-- Default inline 1-->
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline1">
+                    <label class="custom-control-label" for="defaultInline1">Rent</label>
+                </div>
+
+                <!-- Default inline 2-->
+                <div class="custom-control custom-checkbox custom-control-inline pl-md-4">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline2">
+                    <label class="custom-control-label" for="defaultInline2">Ownership</label>
+                </div>
+            </div>
+            <h6 class="border-bottom ml-md-4">Type</h6>
+            <div class="checkboxes pl-md-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Masterpiece
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Refurbished
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                    <label class="form-check-label" for="defaultCheck3">
+                        Disabled
+                    </label>
+                </div>
+            </div>
+            <h6 class="border-bottom ml-md-4">Caliber</h6>
+            <div class="checkboxes ml-md-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                    <label class="form-check-label" for="defaultCheck4">
+                        .3 - 5
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                    <label class="form-check-label" for="defaultCheck5">
+                        5 - 10
+                    </label>
+                </div>
+                <!-- Material inline form -->
+                <form class="form-inline d-flex">
+
+                    <!-- Checkbox -->
+                    <div class="form-check mb-2 mr-sm-2">
+                        <input class="form-check-input" type="checkbox" id="inlineFormCheckMD">
+                        <label class="form-check-label" for="inlineFormCheckMD">
+                            Custom
+                        </label>
+                    </div>
+                    <!-- Material input -->
+                    <div class="md-form">
+                        <input type="text" class="caliber form-control form-control-sm mb-2 mr-sm-2" id="inlineFormInputName2MD"
+                            placeholder="5">
+                        <label class="sr-only" for="inlineFormInputName2MD">Name</label>
+                    </div>
+
+                </form>
+                <!-- Material inline form -->
+            </div>
+            <h6 class="border-bottom ml-md-4">Price Range</h6>
+            <div class="checkboxes ml-md-4">
+                <!-- Default unchecked -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked1">
+                    <label class="custom-control-label" for="defaultUnchecked1">10$ - 100$</label>
+                </div>
+                <!-- Default unchecked -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked2">
+                    <label class="custom-control-label" for="defaultUnchecked2">100$ - 500$</label>
+                </div>
+                <!-- Default unchecked -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked3">
+                    <label class="custom-control-label" for="defaultUnchecked3">500$ - 1000$</label>
+                </div>
+                <!-- Default unchecked -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked4">
+                    <label class="custom-control-label" for="defaultUnchecked4">+ 1000$</label>
+                </div>
+            </div>
+        </article>
+        <article class="total col-12 col-md-8 bg-info"></article>
+    </section>
+</main>
+<footer class="container-fluid">
+    <section class="row footer">
+        <div class="footer-left col-12 col-md-3">
+            <div class="footer-logo">
+                <a href="#"
+                    class="navbar-logo d-flex text-decoration-none align-items-center bot-logo justify-content-center">
+                    <img class="rounded" width="50" src="assets/img/magicball.jpg" alt="magic ball logo" />
+                    WEAPOLD</a>
+                <p>
+                    A weapon, arm or armament is any implement or device that can be
+                    used with intent to inflict damage or harm. Weapons are used to
+                    increase the efficacy and efficiency of activities such as
+                    hunting, crime, law enforcement, self-defense, and warfare. In
+                    broader context, weapons may be construed to include anything used
+                    to gain a tactical, strategic, material or mental advantage over
+                    an adversary or enemy target.
+                </p>
+            </div>
+        </div>
+        <div class="footer-center col-12 col-md-3">
+            <h5 class="col-12 pink head">CATEGORIES</h5>
+            <div class="list-left">
+                <ul>
+                    <li><a href="#" class="footer-link">Real estate</a></li>
+                    <li><a href="#" class="footer-link">Automotives</a></li>
+                    <li><a href="#" class="footer-link">Electronics</a></li>
+                    <li><a href="#" class="footer-link">Clothing</a></li>
+                    <li><a href="#" class="footer-link">Fashion</a></li>
+                    <li><a href="#" class="footer-link">Kids</a></li>
+                    <li><a href="#" class="footer-link">Food</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-right col-12 col-md-3">
+            <h5 class="pink head">NAVIGATION</h5>
+            <ul>
+                <li><a href="./index.html" class="footer-link">HOME</a></li>
+                <li><a href="#" class="footer-link">Sign in</a></li>
+                <li><a href="#" class="footer-link">Sign up</a></li>
+                <li><a href="#" class="footer-link">Terms</a></li>
+                <li><a href="#" class="footer-link">Conditions</a></li>
+                <li><a href="#" class="footer-link">FAQ</a></li>
+                <li><a href="#" class="footer-link">Help</a></li>
+            </ul>
+        </div>
+        <div class="footer-end col-12 col-md-3">
+            <div class="footbtn mb-2">
+                <h5 class="pink">COUNTRY</h5><a href="#" class="btn btn-sm btn-foot">Latvia</a>
+            </div>
+            <div class="footbtn mb-2">
+                <h5 class="pink">LANGUAGE</h5><a href="#" class="btn btn-sm btn-foot">Latvian</a>
+            </div>
+            <div class="footbtn">
+                <h5 class="pink">CURRENCY</h5><a href="#" class="btn btn-sm btn-foot">EURO</a>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<div class="bottom" id="bottom">
+    <p class="float-left">Copyright&copy; 2020 By Igor for Microverse. Design reflection of Mohammed Awad</p>
+    <ul class="float-right">
+        <li><a href="#"><i class="fab fa-yahoo"></i></a></li>
+        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+    </ul>
+</div>
+
+<!-- jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+</script>
+<script src="assets/scripts/script.js"></script>
+</body>
+
+</html>

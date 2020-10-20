@@ -311,6 +311,29 @@ header {
   color: #383838;
 }
 
+.restop {
+  height: 20vh;
+}
+
+.search {
+  font-family: "Conv_HelveticaNeueMed", Arial, Helvetica, sans-serif;
+  background: #f6f6f6;
+  line-height: 2;
+  color: #383838;
+}
+
+.search h6 {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.search .caliber {
+  width: 40px;
+  height: 20px;
+}
+
 body {
   font-family: "Conv_HelveticaNeueLt", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
