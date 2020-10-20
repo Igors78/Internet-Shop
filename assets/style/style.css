@@ -206,6 +206,7 @@ header {
   border-top: 2px solid #888;
   border-bottom: 2px solid #888;
   padding: 15px;
+  font-size: .8rem;
 }
 
 .footer ul {
@@ -332,6 +333,88 @@ header {
 .search .caliber {
   width: 40px;
   height: 20px;
+}
+
+.img-result {
+  max-height: 200px;
+}
+
+.total {
+  border: 1px solid #888;
+  border-top: none;
+  border-bottom: none;
+  font-size: .8rem;
+}
+
+.total h6 {
+  color: #888;
+  font-size: .8rem;
+}
+
+.total h5 {
+  font-size: 0.8rem;
+}
+
+.total .pricebtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70px;
+  height: 30px;
+  color: white;
+  background: #d35266;
+}
+
+.total .value-total {
+  border-bottom: 1px solid #888;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+  color: #888;
+}
+
+.total .value-total em {
+  color: #383838;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.plus-btn {
+  color: #888;
+  background: white;
+  border-color: #888;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+}
+
+.plus-btn:focus {
+  color: #d35266;
+  background: #383838;
+}
+
+.dropdown-item:hover {
+  color: white;
+  background: #383838;
 }
 
 body {
