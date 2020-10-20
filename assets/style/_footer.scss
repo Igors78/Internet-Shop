@@ -1,0 +1,67 @@
+.footer {
+  border-top: 2px solid $grey;
+  border-bottom: 2px solid $grey;
+  padding: 15px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: left;
+  }
+}
+
+.footer-link {
+  color: $grey;
+  text-align: left;
+
+  &:hover {
+    color: $dark;
+    text-decoration: none;
+  }
+}
+
+.bot-logo {
+  font-family: "Conv_GothamBold", sans-serif;
+  font-weight: bold;
+  color: $grey;
+  font-size: 2rem;
+}
+
+.footer-logo {
+  p {
+    color: $grey;
+    font-size: 0.8rem;
+  }
+}
+
+.pink {
+  color: $pink;
+}
+
+.head {
+  border-bottom: 1px solid $pink;
+}
+
+.footbtn {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-foot {
+  width: 50%;
+  border: 1px solid $dark;
+  color: $grey;
+}
+
+.footer-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bot-logo {
+  &:hover {
+    color: $pink;
+  }
+}

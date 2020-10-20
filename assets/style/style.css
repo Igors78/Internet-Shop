@@ -202,6 +202,115 @@ header {
   height: 100%;
 }
 
+.footer {
+  border-top: 2px solid #888;
+  border-bottom: 2px solid #888;
+  padding: 15px;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none;
+  text-align: left;
+}
+
+.footer-link {
+  color: #888;
+  text-align: left;
+}
+
+.footer-link:hover {
+  color: #383838;
+  text-decoration: none;
+}
+
+.bot-logo {
+  font-family: "Conv_GothamBold", sans-serif;
+  font-weight: bold;
+  color: #888;
+  font-size: 2rem;
+}
+
+.footer-logo p {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.pink {
+  color: #d35266;
+}
+
+.head {
+  border-bottom: 1px solid #d35266;
+}
+
+.footbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn-foot {
+  width: 50%;
+  border: 1px solid #383838;
+  color: #888;
+}
+
+.footer-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bot-logo:hover {
+  color: #d35266;
+}
+
+.bottom {
+  padding: 15px;
+}
+
+.bottom p {
+  color: #888;
+  font-size: 0.8em;
+}
+
+.bottom ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottom ul li {
+  margin-left: 10px;
+}
+
+.bottom ul li a {
+  color: #888;
+}
+
+.bottom ul li a:hover {
+  color: #383838;
+}
+
 body {
   font-family: "Conv_HelveticaNeueLt", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
