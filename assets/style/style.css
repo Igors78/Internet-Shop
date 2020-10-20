@@ -203,10 +203,17 @@ header {
 }
 
 .footer {
+  margin-top: 80px;
   border-top: 2px solid #888;
   border-bottom: 2px solid #888;
   padding: 15px;
-  font-size: .8rem;
+  font-size: 0.8rem;
+}
+
+.footer h5 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-left: 0;
 }
 
 .footer ul {
@@ -284,6 +291,10 @@ header {
   color: #d35266;
 }
 
+.card {
+  margin-bottom: 15px;
+}
+
 .bottom {
   padding: 15px;
 }
@@ -340,15 +351,16 @@ header {
 }
 
 .total {
+  background: #f6f6f6;
   border: 1px solid #888;
   border-top: none;
   border-bottom: none;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .total h6 {
   color: #888;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .total h5 {
@@ -415,6 +427,21 @@ header {
 .dropdown-item:hover {
   color: white;
   background: #383838;
+}
+
+.page-link {
+  color: #888;
+}
+
+.page-link:hover {
+  cursor: pointer;
+  background: #d35266;
+  color: white;
+}
+
+.lightened {
+  background: #d35266;
+  color: white;
 }
 
 body {
