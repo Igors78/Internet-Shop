@@ -1,0 +1,84 @@
+.heading {
+  h5 {
+    font-family: "Conv_HelveticaNeueBd";
+    color: $dark;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: "Conv_HelveticaNeueBd";
+  }
+
+  span {
+    font-family: "Conv_HelveticaNeueLt";
+    font-size: 0.8rem;
+    color: $grey;
+  }
+
+  border-bottom: 2px double $grey;
+}
+
+.collect-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0;
+
+  h5 {
+    color: $dark;
+  }
+
+  p {
+    color: $pink;
+    font-weight: bold;
+  }
+
+  span {
+    font-size: 0.8rem;
+  }
+
+  small {
+    color: $grey;
+  }
+
+  .plus-btn {
+    color: $grey;
+    background: white;
+    border-color: $grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+
+    &:focus {
+      color: $pink;
+      background: $dark;
+    }
+  }
+
+  .card-price {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+  }
+
+  .dropdown-toggle::after {
+    content: none;
+  }
+
+  .dropdown-item {
+    &:hover {
+      color: white;
+      background: $dark;
+    }
+  }
+}
+
+.small-img {
+  height: 165px;
+}
+
+.col-card {
+  padding: 0;
+  height: 100%;
+}
