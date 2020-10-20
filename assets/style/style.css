@@ -105,17 +105,17 @@ header {
 }
 
 .heading h5 {
-  font-family: "Conv_HelveticaNeueBd", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Conv_HelveticaNeueBd", "Lucida Sans", sans-serif;
   color: #383838;
   font-weight: bold;
 }
 
 .heading p {
-  font-family: "Conv_HelveticaNeueBd", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Conv_HelveticaNeueBd", "Lucida Sans", sans-serif;
 }
 
 .heading span {
-  font-family: "Conv_HelveticaNeueLt", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Conv_HelveticaNeueLt", sans-serif;
   font-size: 0.8rem;
   color: #888;
 }
