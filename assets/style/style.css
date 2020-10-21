@@ -324,7 +324,7 @@ header {
 }
 
 .restop {
-  height: 30vh;
+  height: 40vh;
 }
 
 @media only screen and (max-width: 628px) {
@@ -452,7 +452,8 @@ header {
 
 body {
   font-family: "Conv_HelveticaNeueLt", "Lucida Sans", sans-serif;
-  min-width: 360px;
+  min-width: 280px;
+  overflow-x: hidden;
 }
 
 img {
