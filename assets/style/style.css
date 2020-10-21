@@ -88,7 +88,9 @@ header {
 }
 
 .hot-ads img {
-  height: 250px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .pricing {
@@ -98,6 +100,41 @@ header {
 
 .btn-collect {
   color: #d35266;
+}
+
+.controlche {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #888;
+  border-radius: 50%;
+  color: #d35266;
+}
+
+.controlche:hover {
+  text-decoration: none;
+  color: white;
+  background: #383838;
+}
+
+.chevron {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .heading {

@@ -22,7 +22,8 @@
 
 .hot-ads {
   img {
-    height: 250px;
+    height: 300px;
+    object-fit: cover;
   }
 }
 
@@ -32,4 +33,27 @@
 
 .btn-collect {
   color: $pink;
+}
+
+.controlche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid $grey;
+  border-radius: 50%;
+  color: $pink;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background: $dark;
+  }
+}
+
+.chevron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
