@@ -47,24 +47,38 @@
     <h4 class="text-center text-white">
       Getting your dream collectable is easy as this...
     </h4>
-    <form class="form-inline mx-auto">
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <label class="m-0 p-0" for="inlineFormCustomSelectPref"> </label>
-          <select class="custom-select" id="inlineFormCustomSelectPref">
-            <option selected>Section</option>
-            <option value="1">WW I</option>
-            <option value="2">WW II</option>
-            <option value="3">Miscellaneous</option>
-          </select>
-        </div>
-        <input type="text" class="form-control left-border d-none d-sm-block" placeholder="Type" />
-        <input type="text" class="form-control left-border d-none d-sm-block" placeholder="Country" />
-        <div class="input-group-prepend">
-          <a href="./results.html" class="btn btn-dark">SEARCH</a>
-        </div>
+    <form class="form-inline d-flex flex-column">
+      <div class="input-group mb-3 d-flex justify-content-center">
+          <div class="input-group-prepend">
+              <label class="m-0 p-0" for="inlineFormCustomSelectPref"> </label>
+              <select class="custom-select" id="inlineFormCustomSelectPref">
+                  <option selected>Section</option>
+                  <option value="1">WW I</option>
+                  <option value="2">WW II</option>
+                  <option value="3">Miscellaneous</option>
+              </select>
+          </div>
+          <input type="text" class="form-control left-border d-none d-sm-block" placeholder="Type" />
+          <input type="text" class="form-control left-border d-none d-sm-block" placeholder="Country" />
+          <div class="input-group-prepend">
+              <a href="./results.html" class="btn btn-dark">SEARCH</a>
+          </div>
       </div>
-    </form>
+      <!-- Default form group -->
+
+      <!-- Default input -->
+      <div class="form-group">
+
+          <input type="text" class="form-control d-sm-none mb-3" id="formGroupExampleInput" placeholder="Type">
+
+          <!-- Default input -->
+
+
+          <input type="text" class="form-control d-sm-none" id="formGroupExampleInput2" placeholder="Country">
+      </div>
+
+      <!-- Default form group -->
+  </form>
   </header>
   <main class="container-fluid">
     <!-- #region HOT AD SLIDESHOW-->

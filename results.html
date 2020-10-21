@@ -46,8 +46,8 @@
     <h4 class="text-center text-white d-none d-sm-block">
         Search around thousands of items waiting to be yours...
     </h4>
-    <form class="form-inline mx-auto">
-        <div class="input-group mb-3">
+    <form class="form-inline d-flex flex-column">
+        <div class="input-group mb-3 d-flex justify-content-center">
             <div class="input-group-prepend">
                 <label class="m-0 p-0" for="inlineFormCustomSelectPref"> </label>
                 <select class="custom-select" id="inlineFormCustomSelectPref">
@@ -63,6 +63,20 @@
                 <button type="submit" class="btn btn-dark">SEARCH</button>
             </div>
         </div>
+        <!-- Default form group -->
+
+        <!-- Default input -->
+        <div class="form-group">
+
+            <input type="text" class="form-control d-sm-none mb-3" id="formGroupExampleInput" placeholder="Type">
+
+            <!-- Default input -->
+
+
+            <input type="text" class="form-control d-sm-none" id="formGroupExampleInput2" placeholder="Country">
+        </div>
+
+        <!-- Default form group -->
     </form>
 </header>
 <main class="result-main container-fluid">
@@ -219,7 +233,7 @@
                 <!-- Card -->
 
                 <!-- Card content -->
-                <img class="img-fluid img-result px-0 col-md-4" src="assets/img/result6.jpg" alt="Card image cap" />
+                <img class="img-result px-0 col-md-4" src="assets/img/result6.jpg" alt="Card image cap" />
 
                 <!-- Card content -->
                 <div class="card-body col-md-8 d-flex flex-column p-2">

@@ -353,7 +353,6 @@ header {
 }
 
 .img-result {
-  height: 100%;
   max-height: 180px;
 }
 
@@ -451,12 +450,13 @@ header {
   color: white;
 }
 
-.card-body {
-  padding-left: 10px;
-}
-
 body {
   font-family: "Conv_HelveticaNeueLt", "Lucida Sans", sans-serif;
   min-width: 360px;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */

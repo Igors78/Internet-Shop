@@ -7,10 +7,8 @@
 
 ![screenshot](./assets/img/screenshot.png)
 
-This project is the final in the Microverse HTML & CSS module - CAPSTONE. Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. It's a real-world-like project, built with business specifications. The project for the HTML & CSS Capstone Project is based on an online shop for electronics. The given design of the website should be followed, but the content personalized. Project build for 3 screen sizes, small up to 576px wide, tablet size up to 768px and bigger screen sizes more than 768px. Bootstrap used for responsive layout and JS actions.
-I choosed the weapon collectables for my e-store page, as it is very popular segment of business with millions dollars in turnover and costs of items reaching thousands per separate one.The design reflects the original e-store page developed by Mohammed Awad, please see the design sketch in his profile via the link below
-
-[Design page Link](https://www.behance.net/gallery/24796463/ZATTIX)
+This project is the final in the Microverse HTML & CSS module - CAPSTONE. It's a real-world-like project, built with business specifications. The project for the HTML & CSS Capstone Project is based on an online shop for electronics. The given design of the website should be followed, but the content personalized. Project build for 3 screen sizes, small up to 576px wide, tablet size up to 768px and bigger screen sizes more than 768px. Bootstrap used for responsive layout and JS actions.
+I choosed the weapon collectables for my e-store page, as it is very popular segment of business with millions dollars in turnover and costs of items reaching thousands per separate one. Page has responsive navbar menu collapsing by changing screensize from large to smaller, SEARCH bar leads to search results page. Page layout changes accordingly to viewer's screen size to nicely fit the content.
 
 Project video presentation here:
 [Video Presentation](https://drive.google.com/file/d/1Um8yqWg2SMsyOGK7QdTAFVgQ2FoICFVC/view)
@@ -40,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 - Open the command line terminal
 ### Install
 - Go to your preferred directory
-- Run [ git clone https://github.com/Igors78/Internet-Shop.git] command
+- Run [ ```git clone https://github.com/Igors78/Internet-Shop.git```] command
 ### Usage
 - Open index.html file in any modern browser
 ### Run tests
@@ -69,10 +67,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+
 - Thanks to Bootstrap
 - Thanks to stand-up team for raising issues and giving constructive critics out
-- Thanks to Mohammed Awad (design sketch)
+- Thanks to Mohammed Awad (design sketch) [Design page Link](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## 📝 License
 
