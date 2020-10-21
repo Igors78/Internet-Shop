@@ -13,7 +13,7 @@ I choosed the weapon collectables for my e-store page, as it is very popular seg
 [Design page Link](https://www.behance.net/gallery/24796463/ZATTIX)
 
 Project video presentation here:
-[Video Presentation]()
+[Video Presentation](https://drive.google.com/file/d/1Um8yqWg2SMsyOGK7QdTAFVgQ2FoICFVC/view)
 
 ## Built With
 
