@@ -1,5 +1,9 @@
 .restop {
-  height: 20vh;
+  height: 30vh;
+
+  @media only screen and (max-width: 628px) {
+    height: 50vh;
+  }
 }
 
 .search {
@@ -22,7 +26,8 @@
 }
 
 .img-result {
-  max-height: 200px;
+  height: 100%;
+  max-height: 180px;
 }
 
 .total {

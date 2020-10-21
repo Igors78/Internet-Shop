@@ -324,7 +324,13 @@ header {
 }
 
 .restop {
-  height: 20vh;
+  height: 30vh;
+}
+
+@media only screen and (max-width: 628px) {
+  .restop {
+    height: 50vh;
+  }
 }
 
 .search {
@@ -347,7 +353,8 @@ header {
 }
 
 .img-result {
-  max-height: 200px;
+  height: 100%;
+  max-height: 180px;
 }
 
 .total {
@@ -444,7 +451,12 @@ header {
   color: white;
 }
 
+.card-body {
+  padding-left: 10px;
+}
+
 body {
   font-family: "Conv_HelveticaNeueLt", "Lucida Sans", sans-serif;
+  min-width: 360px;
 }
 /*# sourceMappingURL=style.css.map */
