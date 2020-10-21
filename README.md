@@ -2,28 +2,29 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-# The News Week page clone
-> This project is part of Microverse HTML/CSS curriculum
+# Internet-Shop
+> This project is the capstone of Microverse HTML/CSS curriculum module.
 
 ![screenshot](./assets/img/screenshot.png)
 
-The project is the seventh of the Microverse curriculum HTML/CSS module. 
-Project mirrors the News Week page with the purpose to use Bootstrap where possible. Bootstrap is the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+This project is the final in the Microverse HTML & CSS module - CAPSTONE. Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. It's a real-world-like project, built with business specifications. The project for the HTML & CSS Capstone Project is based on an online shop for electronics. The given design of the website should be followed, but the content personalized. Project build for 3 screen sizes, small up to 576px wide, tablet size up to 768px and bigger screen sizes more than 768px. Bootstrap used for responsive layout and JS actions.
+I choosed the weapon collectables for my e-store page, as it is very popular segment of business with millions dollars in turnover and costs of items reaching thousands per separate one.The design reflects the original e-store page developed by Mohammed Awad, please see the design sketch in his profile via the link below
 
+[Design page Link](https://www.behance.net/gallery/24796463/ZATTIX)
 
-See the source page below:
-[Source page Link](https://www.newsweek.com/)
+Project video presentation here:
+[Video Presentation]()
 
 ## Built With
 
-- HTML/CSS/SCSS
+- HTML/CSS/SCSS/JS
 - Fontawesome library
-- Iconify library
 - Bootstrap
+- MDBootstrap library
 
 ## Live Demo
 
-[Live Demo Link](https://igors78.github.io/Newsweek-clone/)
+[Live Demo Link](https://igors78.github.io/Internet-Shop/)
 
 ## Getting Started
 
@@ -39,16 +40,16 @@ To get a local copy up and running follow these simple example steps.
 - Open the command line terminal
 ### Install
 - Go to your preferred directory
-- Run [ git clone https://github.com/Igors78/Newsweek-clone.git] command
+- Run [ git clone https://github.com/Igors78/Internet-Shop.git] command
 ### Usage
 - Open index.html file in any modern browser
 ### Run tests
-- Tests passed can be found here (https://github.com/Igors78/Newsweek-clone/pulls)
+- Tests passed can be found here (https://github.com/Igors78/Internet-Shop/pulls)
 ### Deployment
 - Page deployed through the Github pages service and can be viewed through the Live Demo Link (see above)
 
 
-## Authors
+## Author
 
 👤 **Igors Oleinikovs**
 
@@ -56,17 +57,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@oleinikovs](https://twitter.com/oleinikovs)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
-👤 **Misori Simon**
-
-- GitHub: [@Misori-simon](https://github.com/Misori-simon)
-- Twitter: [@misori_simon](https://twitter.com/misori_simon)
-- LinkedIn: [@misori-simon](https://www.linkedin.com/in/misori-simon-05906219b/)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Igors78/Newsweek-clone/issues).
+Feel free to check the [issues page](https://github.com/Igors78/Internet-Shop/issues).
 
 ## Show your support
 
@@ -77,7 +72,8 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Thanks to Bootstrap
 - Thanks to stand-up team for raising issues and giving constructive critics out
+- Thanks to Mohammed Awad (design sketch)
 
 ## 📝 License
 
-This project is [MIT](license.txt) licensed.
+This project is [UNI](LICENSE) licensed.
