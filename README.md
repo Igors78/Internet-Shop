@@ -11,7 +11,7 @@ This project is the final in the Microverse HTML & CSS module - CAPSTONE. It's a
 I chose the weapon collectibles for my e-store page, as it is a very popular segment of business with millions of dollars in turnover and costs of items reaching thousands per separate one. The page has a responsive navbar menu collapsing by changing screen size from large to smaller, SEARCH bar leads to the search results page. Page layout changes accordingly to the viewer's screen size to nicely fit the content. There are two pages available for displaying: the main page (search page) and the search results page. Switch between them by clicking the search button on the main page, and HOME anywhere on the search results page.
 
 Project video presentation here:
-[Video Presentation](https://drive.google.com/file/d/1Um8yqWg2SMsyOGK7QdTAFVgQ2FoICFVC/view)
+[Video Presentation](https://drive.google.com/file/d/11ek18za900F7OEBczUBQvUKj5T9jhNpO/view)
 
 ## Built With
 
