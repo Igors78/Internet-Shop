@@ -8,7 +8,7 @@
 ![screenshot](./assets/img/screenshot.png)
 
 This project is the final in the Microverse HTML & CSS module - CAPSTONE. It's a real-world-like project, built with business specifications. The project for the HTML & CSS Capstone Project is based on an online shop for electronics. The given design of the website should be followed, but the content personalized. Project build for 3 screen sizes, small up to 576px wide, tablet size up to 768px and bigger screen sizes more than 768px. Bootstrap used for responsive layout and JS actions.
-I choosed the weapon collectables for my e-store page, as it is very popular segment of business with millions dollars in turnover and costs of items reaching thousands per separate one. Page has responsive navbar menu collapsing by changing screensize from large to smaller, SEARCH bar leads to search results page. Page layout changes accordingly to viewer's screen size to nicely fit the content.
+I choosed the weapon collectables for my e-store page, as it is very popular segment of business with millions dollars in turnover and costs of items reaching thousands per separate one. Page has responsive navbar menu collapsing by changing screensize from large to smaller, SEARCH bar leads to search results page. Page layout changes accordingly to viewer's screen size to nicely fit the content. There are two pages available for displaying: main page (search page) and search results page. Switch between them by clicking search button on main page, and HOME anywhere in the search results page.
 
 Project video presentation here:
 [Video Presentation](https://drive.google.com/file/d/1Um8yqWg2SMsyOGK7QdTAFVgQ2FoICFVC/view)

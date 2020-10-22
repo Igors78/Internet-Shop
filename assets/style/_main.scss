@@ -20,13 +20,6 @@
   font-style: italic;
 }
 
-.hot-ads {
-  img {
-    height: 300px;
-    object-fit: cover;
-  }
-}
-
 .pricing {
   align-self: flex-end;
 }
@@ -56,4 +49,66 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.car-img {
+  position: relative;
+  height: 280px;
+}
+
+.car-img-controls {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.che {
+  color: $pink;
+  width: 20px;
+  height: 20px;
+  background: $dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.back1 {
+  background: url("../img/result7.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back2 {
+  background: url("../img/result6.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back3 {
+  background: url("../img/result5.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back4 {
+  background: url("../img/result4.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back5 {
+  background: url("../img/result3.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }

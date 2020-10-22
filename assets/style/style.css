@@ -87,12 +87,6 @@ header {
   font-style: italic;
 }
 
-.hot-ads img {
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .pricing {
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -135,6 +129,76 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.car-img {
+  position: relative;
+  height: 280px;
+}
+
+.car-img-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.che {
+  color: #d35266;
+  width: 20px;
+  height: 20px;
+  background: #383838;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.che:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.back1 {
+  background: url("../img/result7.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back2 {
+  background: url("../img/result6.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back3 {
+  background: url("../img/result5.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back4 {
+  background: url("../img/result4.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back5 {
+  background: url("../img/result3.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .heading {

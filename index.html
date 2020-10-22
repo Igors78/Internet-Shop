@@ -1,1090 +1,877 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link rel="stylesheet" href="assets/style/style.css" />
-    <script
-      src="https://kit.fontawesome.com/013fb8bd39.js"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
 
-    <title>INTERNET SHOP</title>
-  </head>
+  <link rel="stylesheet" href="assets/style/style.css" />
+  <script src="https://kit.fontawesome.com/013fb8bd39.js" crossorigin="anonymous"></script>
 
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
-      <a
-        href="#"
-        class="navbar-logo d-flex text-decoration-none align-items-center"
-      >
-        <img
-          class="rounded"
-          width="50"
-          src="assets/img/magicball.jpg"
-          alt="magic ball logo"
-        />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="toggle nav"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link active"
-              ><i class="fas fa-home"></i> HOME</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#wwi" class="nav-link"
-              ><i class="fas fa-stroopwafel"></i> COLLECTIONS</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#bottom" class="nav-link"
-              ><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a
-            >
-          </li>
-          <li class="nav-item">
-            <button type="submit" class="btn btn-nav">POST AN AD</button>
-          </li>
-        </ul>
-        <h3 class="logo-text pt-1">WEAPOLD</h3>
-      </div>
-    </nav>
-    <header
-      class="container-fluid d-flex flex-column align-content-center justify-content-center"
-    >
-      <h1 class="text-center text-white font-weight-bold">WEAPOLD</h1>
-      <h4 class="text-center text-white">
-        Getting your dream collectable is easy as this...
-      </h4>
-      <form class="form-inline d-flex flex-column">
-        <div class="input-group mb-3 d-flex justify-content-center">
-          <div class="input-group-prepend">
-            <label class="m-0 p-0" for="inlineFormCustomSelectPref"> </label>
-            <select class="custom-select" id="inlineFormCustomSelectPref">
-              <option selected>Section</option>
-              <option value="1">WW I</option>
-              <option value="2">WW II</option>
-              <option value="3">Miscellaneous</option>
-            </select>
-          </div>
-          <input
-            type="text"
-            class="form-control left-border d-none d-sm-block"
-            placeholder="Type"
-          />
-          <input
-            type="text"
-            class="form-control left-border d-none d-sm-block"
-            placeholder="Country"
-          />
-          <div class="input-group-prepend">
-            <a href="./results.html" class="btn btn-dark">SEARCH</a>
-          </div>
-        </div>
-        <!-- Default form group -->
+  <title>INTERNET SHOP</title>
+</head>
 
-        <!-- Default input -->
-        <div class="form-group">
-          <input
-            type="text"
-            class="form-control d-sm-none mb-3"
-            id="formGroupExampleInput"
-            placeholder="Type"
-          />
-
-          <!-- Default input -->
-
-          <input
-            type="text"
-            class="form-control d-sm-none"
-            id="formGroupExampleInput2"
-            placeholder="Country"
-          />
-        </div>
-
-        <!-- Default form group -->
-      </form>
-    </header>
-    <main class="container-fluid">
-      <!-- #region HOT AD SLIDESHOW-->
-      <section class="hot-ads col-12 mx-auto d-none d-md-flex flex-column mt-3">
-        <h5>HOT ADS</h5>
-        <div class="pluscontrol d-flex justify-content-between">
-          <div class="chevron col-1">
-            <a href="#" class="controlche"
-              ><i class="fas fa-chevron-left"></i
-            ></a>
-          </div>
-          <div class="slide-show col-10">
-            <div
-              id="carouselExampleSlidesOnly"
-              class="carousel slide carousel-fade"
-              data-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="col card d-flex flex-row pl-0 mx-auto">
-                    <!-- Card -->
-
-                    <!-- Card content -->
-                    <img
-                      class="img-fluid pl-0 col-5"
-                      src="assets/img/result1.jpg"
-                      alt="Card image cap"
-                    />
-
-                    <!-- Card content -->
-                    <div
-                      class="card-body col-7 d-flex flex-column justify-content-between p-2"
-                    >
-                      <!-- Title -->
-                      <h4 class="card-title">Collectable weapons</h4>
-                      <!-- Text -->
-                      <h6 class="card-text">
-                        The Berdan rifle (винтовка Бердана/vintovka Berdana in
-                        Russian) is a Russian rifle created by the American
-                        firearms expert and inventor Hiram Berdan in 1868.
-                      </h6>
-                      <p>By: <span class="sign"> Coldwin</span></p>
-                      <p>Location: <span class="sign"> U.K.</span></p>
-                      <!-- Button -->
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text adbtn" id="basic-add3"
-                            >450$</span
-                          >
-                        </div>
-                        <button
-                          type="submit"
-                          class="form-control adbtn2"
-                          id="basi"
-                          aria-describedby="basic-add3"
-                        >
-                          <i class="fas fa-shopping-cart"></i> Cart
-                        </button>
-                      </div>
-                    </div>
-
-                    <!-- Card -->
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col card d-flex flex-row pl-0 mx-auto">
-                    <!-- Card -->
-
-                    <!-- Card content -->
-                    <img
-                      class="img-fluid pl-0 col-5"
-                      src="assets/img/result2.jpg"
-                      alt="Card image cap"
-                    />
-
-                    <!-- Card content -->
-                    <div
-                      class="card-body col-7 d-flex flex-column justify-content-between p-2"
-                    >
-                      <!-- Title -->
-                      <h4 class="card-title">Berdan rifle</h4>
-                      <!-- Text -->
-                      <h6 class="card-text">
-                        The Russian Berdan I (M1868) and Berdan II (M1870)
-                        rifles of .42 caliber are distinct from the Spanish
-                        Berdan 15mm (.58+ cal) conversion rifles adopted by
-                        (and related engineer,
-                        artillery & short rifles).
-                      </h6>
-                      <p>By: <span class="sign"> Pecano</span></p>
-                      <p>Location: <span class="sign"> Mexico</span></p>
-                      <!-- Button -->
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text adbtn" id="basic-add"
-                            >190$</span
-                          >
-                        </div>
-                        <button
-                          type="submit"
-                          class="form-control adbtn2"
-                          id="basic-ur"
-                          aria-describedby="basic-add"
-                        >
-                          <i class="fas fa-shopping-cart"></i> Cart
-                        </button>
-                      </div>
-                    </div>
-
-                    <!-- Card -->
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col card d-flex flex-row pl-0 mx-auto">
-                    <!-- Card -->
-
-                    <!-- Card content -->
-                    <img
-                      class="img-fluid pl-0 col-5"
-                      src="assets/img/result3.jpg"
-                      alt="Card image cap"
-                    />
-
-                    <!-- Card content -->
-                    <div
-                      class="card-body col-7 d-flex flex-column justify-content-between p-2"
-                    >
-                      <!-- Title -->
-                      <h4 class="card-title">Storm rifle</h4>
-                      <!-- Text -->
-                      <h6 class="card-text">
-                        The 10.7×58mmR cartridge used in the Berdan was also
-                        invented by Hiram Berdan, with the assistance of Russian
-                        colonel Alexander Gorlov [ru]. It was the subject of
-                        many patents in both the United States and United
-                        Kingdom.
-                      </h6>
-                      <p>By: <span class="sign"> Sergy</span></p>
-                      <p>Location: <span class="sign"> Italy</span></p>
-                      <!-- Button -->
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text adbtn" id="basic"
-                            >476$</span
-                          >
-                        </div>
-                        <button
-                          type="submit"
-                          class="form-control adbtn2"
-                          id="basic-l"
-                          aria-describedby="basic-addon3"
-                        >
-                          <i class="fas fa-shopping-cart"></i> Cart
-                        </button>
-                      </div>
-                    </div>
-
-                    <!-- Card -->
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col card d-flex flex-row pl-0 mx-auto">
-                    <!-- Card -->
-
-                    <!-- Card content -->
-                    <img
-                      class="img-fluid pl-0 col-5"
-                      src="assets/img/result5.jpg"
-                      alt="Card image cap"
-                    />
-
-                    <!-- Card content -->
-                    <div
-                      class="card-body col-7 d-flex flex-column justify-content-between p-2"
-                    >
-                      <!-- Title -->
-                      <h4 class="card-title">Desactivated weapons</h4>
-                      <!-- Text -->
-                      <h6 class="card-text">
-                        No magazine-fed versions of the Berdan ever progressed
-                        beyond the prototype phase. Russian troops, however, did
-                        have various cartridge holders, such as the Krnka
-                        quick-loader, rifles to aid in
-                        reloading.
-                      </h6>
-                      <p>By: <span class="sign"> Elon</span></p>
-                      <p>Location: <span class="sign"> Spain</span></p>
-                      <!-- Button -->
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text adbtn" id="basic-addo"
-                            >325$</span
-                          >
-                        </div>
-                        <button
-                          type="submit"
-                          class="form-control adbtn2"
-                          id="bas"
-                          aria-describedby="basic-addon3"
-                        >
-                          <i class="fas fa-shopping-cart"></i> Cart
-                        </button>
-                      </div>
-                    </div>
-
-                    <!-- Card -->
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col card d-flex flex-row pl-0 mx-auto">
-                    <!-- Card -->
-
-                    <!-- Card content -->
-                    <img
-                      class="img-fluid pl-0 col-5"
-                      src="assets/img/result3.jpg"
-                      alt="Card image cap"
-                    />
-
-                    <!-- Card content -->
-                    <div
-                      class="card-body col-7 d-flex flex-column justify-content-between p-2"
-                    >
-                      <!-- Title -->
-                      <h4 class="card-title">Mauser rifle</h4>
-                      <!-- Text -->
-                      <h6 class="card-text">
-                        Two different versions of the later single-shot Berdan
-                        rifle were adopted as service weapons by Imperial
-                        Russia. The first version, manufactured by Colt in the
-                        US, is known as model 1868, or Berdan I.
-                      </h6>
-                      <p>By: <span class="sign"> Stranger</span></p>
-                      <p>Location: <span class="sign"> Russia</span></p>
-                      <!-- Button -->
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text adbtn" id="basic-addon3"
-                            >450$</span
-                          >
-                        </div>
-                        <button
-                          type="submit"
-                          class="form-control adbtn2"
-                          id="basic-url"
-                          aria-describedby="basic-addon3"
-                        >
-                          <i class="fas fa-shopping-cart"></i> Cart
-                        </button>
-                      </div>
-                    </div>
-
-                    <!-- Card -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="chevron col-1">
-            <a href="#" class="controlche"
-              ><i class="fas fa-chevron-right"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-      <!-- #region COLLECTABLES SECTION-->
-      <section class="container-fluid collect d-flex flex-column mt-3">
-        <h5 class="mb-4">COLLECTABLES</h5>
-        <!-- #region Collection Section-->
-        <!-- #region WWI -->
-
-        <article class="row mb-4" id="wwi">
-          <div class="heading col-12 d-flex mb-2">
-            <i class="fas fa-khanda"></i>
-            <h5 class="pl-2">WWI</h5>
-            <p class="pl-2">Unique findinds from battlefields</p>
-            <span class="pl-2 pt-1"> 1914-1922 (Thoroughly renovated) </span>
-          </div>
-          <!-- Card -->
-
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/collect1.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Hunting rifles</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  Sport, as distinct from defensive weapons or weapons used
-                  primarily in warfare.
-                </h6>
-                <p>NEW</p>
-                <span>From: <small>Russian Federation</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">326$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/collect5.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Moser stuzcer</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  Since human beings are lacking in the natural weapons
-                  possessed by other predators, humans have a long history of
-                  making tools to overcome this shortcoming.
-                </h6>
-                <p>USED</p>
-                <span>From: <small>Monrovia</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">178$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/collect7.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Hunting rifles</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  Hunting weapons are weapons designed or used primarily for
-                  hunting game animals.
-                </h6>
-                <p>FRESH</p>
-                <span>From: <small>Mongolia</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">427$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/collect6.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Attack rifles</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  The spear was in use for hunting as early as five million
-                  years ago in hominid and chimpanzee societies, and its usage
-                  may go back even further.
-                </h6>
-                <p>NEW</p>
-                <span>From: <small>Spain</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">453$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-        </article>
-        <!-- #region WW2 -->
-        <article class="row mb-4" id="wwii">
-          <div class="heading col-12 d-flex mb-2">
-            <i class="fab fa-battle-net"></i>
-            <h5 class="pl-2">WWII</h5>
-            <p class="pl-2">Just recovered from battlefields</p>
-            <span class="pl-2 pt-1">
-              1939-1941-1945 (Thoroughly deactivated)
-            </span>
-          </div>
-          <!-- Card -->
-
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/collect10.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Desperates</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  Another hunting weapon, based on different principles than the
-                  spear, is the throwing stick.
-                </h6>
-                <p>OLD</p>
-                <span>From: <small>Germany</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">199$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/collect11.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Nagan stuzcer</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  A rifle is a long-barrelled firearm designed for accurate
-                  shooting, with a barrel that has a helical pattern of grooves
-                  ("rifling") cut into the bore wall
-                </h6>
-                <p>REFRESH</p>
-                <span>From: <small>Urugway</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">543$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/collect12.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Smoking barrel</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  Historically, rifles only fired a single projectile with each
-                  squeeze of the trigger.
-                </h6>
-                <p>FRESH</p>
-                <span>From: <small>Latvia</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">113$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/collect13.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Person gun</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  The origins of rifling are difficult to trace, but some of the
-                  earliest practical experiments seem to have occurred in Europe
-                  during the 15th century.
-                </h6>
-                <p>NEW</p>
-                <span>From: <small>Estonia</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">87$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-        </article>
-        <!-- #region MIXED -->
-        <article class="row mb-4" id="mixed">
-          <div class="heading col-12 d-flex mb-2">
-            <i class="fas fa-braille"></i>
-            <h5 class="pl-2">MIXED</h5>
-            <p class="pl-2">From battlefields all over the World</p>
-            <span class="pl-2 pt-1">
-              1870-1939-1941-1945-1979-Now (Selected only)
-            </span>
-          </div>
-          <!-- Card -->
-
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/result1.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Effective</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  This might also have led to a perceived increase in accuracy,
-                  although no one knows for sure. .
-                </h6>
-                <p>RUST</p>
-                <span>From: <small>Vietnam</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">174$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/result26.png"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Degtyar stuzcer</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  Rifles were created as an improvement in the accuracy of
-                  smooth bore muskets.
-                </h6>
-                <p>RENEW</p>
-                <span>From: <small>Narnia</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">57$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/result8.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Kidding bobby</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  Their greater range was also considered to be of little
-                  practical use, since the smoke from black powder quickly
-                  obscured the battlefield
-                </h6>
-                <p>USABLE</p>
-                <span>From: <small>Serbia</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">163$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12 col-sm-6 col-md-3 mb-2">
-            <div class="card col-card">
-              <!-- Card image -->
-              <img
-                class="card-img-top small-img"
-                src="assets/img/result30.jpg"
-                alt="Card image cap"
-              />
-
-              <!-- Card content -->
-              <div class="card-body collect-card">
-                <!-- Title -->
-                <h5 class="card-title">Machine gun</h5>
-                <!-- Text -->
-                <h6 class="card-text">
-                  The performance of early muskets defined the style of warfare
-                  at the time. Due to the lack of accuracy, soldiers were
-                  deployed in long lines
-                </h6>
-                <p>NEW</p>
-                <span>From: <small>Lithuania</small></span>
-                <!-- Button -->
-                <div class="card-bottom d-flex justify-content-between">
-                  <div class="btn-group dropup">
-                    <a
-                      href="#"
-                      class="btn btn-sm plus-btn dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-plus"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Add to Collection</a>
-                      <a class="dropdown-item" href="#">Send a Message</a>
-                      <a class="dropdown-item" href="#">More Details</a>
-                    </div>
-                  </div>
-                  <p class="card-price">387$</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-        </article>
-      </section>
-    </main>
-    <!-- #region FOOTER WITH NAV LINKS AND INFO BLOCK-->
-    <footer class="container-fluid">
-      <section class="row footer">
-        <div class="footer-left col-12 col-md-3">
-          <div class="footer-logo">
-            <a
-              href="#"
-              class="navbar-logo d-flex text-decoration-none align-items-center bot-logo justify-content-center"
-            >
-              <img
-                class="rounded"
-                width="50"
-                src="assets/img/magicball.jpg"
-                alt="magic ball logo"
-              />
-              WEAPOLD</a
-            >
-            <p>
-              A weapon, arm or armament is any implement or device that can be
-              used with intent to inflict damage or harm. Weapons are used to
-              increase the efficacy and efficiency of activities such as
-              hunting, crime, law enforcement, self-defense, and warfare. In
-              broader context, weapons may be construed to include anything used
-              to gain a tactical, strategic, material or mental advantage over
-              an adversary or enemy target.
-            </p>
-          </div>
-        </div>
-        <div class="footer-center col-12 col-md-3">
-          <h5 class="col-12 pink head">CATEGORIES</h5>
-          <div class="list-left">
-            <ul>
-              <li><a href="#" class="footer-link">Real estate</a></li>
-              <li><a href="#" class="footer-link">Automotives</a></li>
-              <li><a href="#" class="footer-link">Electronics</a></li>
-              <li><a href="#" class="footer-link">Clothing</a></li>
-              <li><a href="#" class="footer-link">Fashion</a></li>
-              <li><a href="#" class="footer-link">Kids</a></li>
-              <li><a href="#" class="footer-link">Food</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-right col-12 col-md-3">
-          <h5 class="pink head">NAVIGATION</h5>
-          <ul>
-            <li><a href="./index.html" class="footer-link">HOME</a></li>
-            <li><a href="#" class="footer-link">Sign in</a></li>
-            <li><a href="#" class="footer-link">Sign up</a></li>
-            <li><a href="#" class="footer-link">Terms</a></li>
-            <li><a href="#" class="footer-link">Conditions</a></li>
-            <li><a href="#" class="footer-link">FAQ</a></li>
-            <li><a href="#" class="footer-link">Help</a></li>
-          </ul>
-        </div>
-        <div class="footer-end col-12 col-md-3">
-          <div class="footbtn mb-2">
-            <h5 class="pink">COUNTRY</h5>
-            <a href="#" class="btn btn-sm btn-foot">Latvia</a>
-          </div>
-          <div class="footbtn mb-2">
-            <h5 class="pink">LANGUAGE</h5>
-            <a href="#" class="btn btn-sm btn-foot">Latvian</a>
-          </div>
-          <div class="footbtn">
-            <h5 class="pink">CURRENCY</h5>
-            <a href="#" class="btn btn-sm btn-foot">EURO</a>
-          </div>
-        </div>
-      </section>
-    </footer>
-    <!-- #region BOTTOM COPYRIGHT AND SOCIAL LINKS-->
-    <div class="bottom" id="bottom">
-      <p class="float-left">
-        Copyright&copy; 2020 By Igor for Microverse. Design reflection of
-        Mohammed Awad
-      </p>
-      <ul class="float-right">
-        <li>
-          <a href="#"><i class="fab fa-yahoo"></i></a>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <a href="#" class="navbar-logo d-flex text-decoration-none align-items-center">
+      <img class="rounded" width="50" src="assets/img/magicball.jpg" alt="magic ball logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link active"><i class="fas fa-home"></i> HOME</a>
         </li>
-        <li>
-          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        <li class="nav-item">
+          <a href="#wwi" class="nav-link"><i class="fas fa-stroopwafel"></i> COLLECTIONS</a>
         </li>
-        <li>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <li class="nav-item">
+          <a href="#bottom" class="nav-link"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a>
         </li>
-        <li>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <li class="nav-item">
+          <button type="submit" class="btn btn-nav">POST AN AD</button>
         </li>
       </ul>
+      <h3 class="logo-text pt-1">WEAPOLD</h3>
     </div>
+  </nav>
+  <header class="container-fluid d-flex flex-column align-content-center justify-content-center">
+    <h1 class="text-center text-white font-weight-bold">WEAPOLD</h1>
+    <h4 class="text-center text-white">
+      Getting your dream collectable is easy as this...
+    </h4>
+    <form class="form-inline d-flex flex-column">
+      <div class="input-group mb-3 d-flex justify-content-center">
+        <div class="input-group-prepend">
+          <label class="m-0 p-0" for="inlineFormCustomSelectPref"> </label>
+          <select class="custom-select" id="inlineFormCustomSelectPref">
+            <option selected>Section</option>
+            <option value="1">WW I</option>
+            <option value="2">WW II</option>
+            <option value="3">Miscellaneous</option>
+          </select>
+        </div>
+        <input type="text" class="form-control left-border d-none d-sm-block" placeholder="Type" />
+        <input type="text" class="form-control left-border d-none d-sm-block" placeholder="Country" />
+        <div class="input-group-prepend">
+          <a href="./results.html" class="btn btn-dark">SEARCH</a>
+        </div>
+      </div>
+      <!-- Default form group -->
 
-    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
-    <script src="assets/scripts/script.js"></script>
-  </body>
+      <!-- Default input -->
+      <div class="form-group">
+        <input type="text" class="form-control d-sm-none mb-3" id="formGroupExampleInput" placeholder="Type" />
+
+        <!-- Default input -->
+
+        <input type="text" class="form-control d-sm-none" id="formGroupExampleInput2" placeholder="Country" />
+      </div>
+
+      <!-- Default form group -->
+    </form>
+  </header>
+  <main class="container-fluid">
+    <!-- #region HOT AD SLIDESHOW-->
+    <section class="hot-ads col-12 mx-auto d-none d-md-flex flex-column mt-3">
+      <h5>HOT ADS</h5>
+      <div class="pluscontrol d-flex justify-content-between">
+        <div class="chevron col-1">
+          <a href="#" class="controlche"><i class="fas fa-chevron-left"></i></a>
+        </div>
+        <div class="slide-show col-10">
+          <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="col card d-flex flex-row pl-0 mx-auto">
+                  <!-- Card -->
+
+                  <!-- Card content -->
+                  <div class="car-img back1 pl-0 col-5">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+                  <!-- Card content -->
+                  <div class="card-body col-7 d-flex flex-column justify-content-between p-2">
+                    <!-- Title -->
+                    <h4 class="card-title">Collectable weapons</h4>
+                    <!-- Text -->
+                    <h6 class="card-text">
+                      The Berdan rifle (винтовка Бердана/vintovka Berdana in
+                      Russian) is a Russian rifle created by the American
+                      firearms expert and inventor Hiram Berdan in 1868.
+                    </h6>
+                    <p>By: <span class="sign"> Coldwin</span></p>
+                    <p>Location: <span class="sign"> U.K.</span></p>
+                    <!-- Button -->
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text adbtn" id="basic-add3">450$</span>
+                      </div>
+                      <button type="submit" class="form-control adbtn2" id="basi" aria-describedby="basic-add3">
+                        <i class="fas fa-shopping-cart"></i> Cart
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Card -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col card d-flex flex-row pl-0 mx-auto">
+                  <!-- Card -->
+
+                  <!-- Card content -->
+                  <div class="car-img back2 pl-0 col-5">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body col-7 d-flex flex-column justify-content-between p-2">
+                    <!-- Title -->
+                    <h4 class="card-title">Berdan rifle</h4>
+                    <!-- Text -->
+                    <h6 class="card-text">
+                      The Russian Berdan I (M1868) and Berdan II (M1870)
+                      rifles of .42 caliber are distinct from the Spanish
+                      Berdan 15mm (.58+ cal) conversion rifles adopted by
+                      (and related engineer,
+                      artillery & short rifles).
+                    </h6>
+                    <p>By: <span class="sign"> Pecano</span></p>
+                    <p>Location: <span class="sign"> Mexico</span></p>
+                    <!-- Button -->
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text adbtn" id="basic-add">190$</span>
+                      </div>
+                      <button type="submit" class="form-control adbtn2" id="basic-ur" aria-describedby="basic-add">
+                        <i class="fas fa-shopping-cart"></i> Cart
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Card -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col card d-flex flex-row pl-0 mx-auto">
+                  <!-- Card -->
+
+                  <!-- Card content -->
+                  <div class="car-img back3 pl-0 col-5">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body col-7 d-flex flex-column justify-content-between p-2">
+                    <!-- Title -->
+                    <h4 class="card-title">Storm rifle</h4>
+                    <!-- Text -->
+                    <h6 class="card-text">
+                      The 10.7×58mmR cartridge used in the Berdan was also
+                      invented by Hiram Berdan, with the assistance of Russian
+                      colonel Alexander Gorlov [ru]. It was the subject of
+                      many patents in both the United States and United
+                      Kingdom.
+                    </h6>
+                    <p>By: <span class="sign"> Sergy</span></p>
+                    <p>Location: <span class="sign"> Italy</span></p>
+                    <!-- Button -->
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text adbtn" id="basic">476$</span>
+                      </div>
+                      <button type="submit" class="form-control adbtn2" id="basic-l" aria-describedby="basic-addon3">
+                        <i class="fas fa-shopping-cart"></i> Cart
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Card -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col card d-flex flex-row pl-0 mx-auto">
+                  <!-- Card -->
+
+                  <!-- Card content -->
+                  <div class="car-img back4 pl-0 col-5">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body col-7 d-flex flex-column justify-content-between p-2">
+                    <!-- Title -->
+                    <h4 class="card-title">Desactivated weapons</h4>
+                    <!-- Text -->
+                    <h6 class="card-text">
+                      No magazine-fed versions of the Berdan ever progressed
+                      beyond the prototype phase. Russian troops, however, did
+                      have various cartridge holders, such as the Krnka
+                      quick-loader, rifles to aid in
+                      reloading.
+                    </h6>
+                    <p>By: <span class="sign"> Elon</span></p>
+                    <p>Location: <span class="sign"> Spain</span></p>
+                    <!-- Button -->
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text adbtn" id="basic-addo">325$</span>
+                      </div>
+                      <button type="submit" class="form-control adbtn2" id="bas" aria-describedby="basic-addon3">
+                        <i class="fas fa-shopping-cart"></i> Cart
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Card -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col card d-flex flex-row pl-0 mx-auto">
+                  <!-- Card -->
+
+                  <!-- Card content -->
+                  <div class="car-img back5 pl-0 col-5">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body col-7 d-flex flex-column justify-content-between p-2">
+                    <!-- Title -->
+                    <h4 class="card-title">Mauser rifle</h4>
+                    <!-- Text -->
+                    <h6 class="card-text">
+                      Two different versions of the later single-shot Berdan
+                      rifle were adopted as service weapons by Imperial
+                      Russia. The first version, manufactured by Colt in the
+                      US, is known as model 1868, or Berdan I.
+                    </h6>
+                    <p>By: <span class="sign"> Stranger</span></p>
+                    <p>Location: <span class="sign"> Russia</span></p>
+                    <!-- Button -->
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text adbtn" id="basic-addon3">450$</span>
+                      </div>
+                      <button type="submit" class="form-control adbtn2" id="basic-url" aria-describedby="basic-addon3">
+                        <i class="fas fa-shopping-cart"></i> Cart
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Card -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chevron col-1">
+          <a href="#" class="controlche"><i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- #region COLLECTABLES SECTION-->
+    <section class="container-fluid collect d-flex flex-column mt-3">
+      <h5 class="mb-4">COLLECTABLES</h5>
+      <!-- #region Collection Section-->
+      <!-- #region WWI -->
+
+      <article class="row mb-4" id="wwi">
+        <div class="heading col-12 d-flex mb-2">
+          <i class="fas fa-khanda"></i>
+          <h5 class="pl-2">WWI</h5>
+          <p class="pl-2">Unique findinds from battlefields</p>
+          <span class="pl-2 pt-1"> 1914-1922 (Thoroughly renovated) </span>
+        </div>
+        <!-- Card -->
+
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/collect1.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Hunting rifles</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                Sport, as distinct from defensive weapons or weapons used
+                primarily in warfare.
+              </h6>
+              <p>NEW</p>
+              <span>From: <small>Russian Federation</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">326$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/collect5.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Moser stuzcer</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                Since human beings are lacking in the natural weapons
+                possessed by other predators, humans have a long history of
+                making tools to overcome this shortcoming.
+              </h6>
+              <p>USED</p>
+              <span>From: <small>Monrovia</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">178$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/collect7.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Hunting rifles</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                Hunting weapons are weapons designed or used primarily for
+                hunting game animals.
+              </h6>
+              <p>FRESH</p>
+              <span>From: <small>Mongolia</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">427$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/collect6.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Attack rifles</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                The spear was in use for hunting as early as five million
+                years ago in hominid and chimpanzee societies, and its usage
+                may go back even further.
+              </h6>
+              <p>NEW</p>
+              <span>From: <small>Spain</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">453$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+      </article>
+      <!-- #region WW2 -->
+      <article class="row mb-4" id="wwii">
+        <div class="heading col-12 d-flex mb-2">
+          <i class="fab fa-battle-net"></i>
+          <h5 class="pl-2">WWII</h5>
+          <p class="pl-2">Just recovered from battlefields</p>
+          <span class="pl-2 pt-1">
+            1939-1941-1945 (Thoroughly deactivated)
+          </span>
+        </div>
+        <!-- Card -->
+
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/collect10.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Desperates</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                Another hunting weapon, based on different principles than the
+                spear, is the throwing stick.
+              </h6>
+              <p>OLD</p>
+              <span>From: <small>Germany</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">199$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/collect11.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Nagan stuzcer</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                A rifle is a long-barrelled firearm designed for accurate
+                shooting, with a barrel that has a helical pattern of grooves
+                ("rifling") cut into the bore wall
+              </h6>
+              <p>REFRESH</p>
+              <span>From: <small>Urugway</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">543$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/collect12.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Smoking barrel</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                Historically, rifles only fired a single projectile with each
+                squeeze of the trigger.
+              </h6>
+              <p>FRESH</p>
+              <span>From: <small>Latvia</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">113$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/collect13.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Person gun</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                The origins of rifling are difficult to trace, but some of the
+                earliest practical experiments seem to have occurred in Europe
+                during the 15th century.
+              </h6>
+              <p>NEW</p>
+              <span>From: <small>Estonia</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">87$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+      </article>
+      <!-- #region MIXED -->
+      <article class="row mb-4" id="mixed">
+        <div class="heading col-12 d-flex mb-2">
+          <i class="fas fa-braille"></i>
+          <h5 class="pl-2">MIXED</h5>
+          <p class="pl-2">From battlefields all over the World</p>
+          <span class="pl-2 pt-1">
+            1870-1939-1941-1945-1979-Now (Selected only)
+          </span>
+        </div>
+        <!-- Card -->
+
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/result1.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Effective</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                This might also have led to a perceived increase in accuracy,
+                although no one knows for sure. .
+              </h6>
+              <p>RUST</p>
+              <span>From: <small>Vietnam</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">174$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/result26.png" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Degtyar stuzcer</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                Rifles were created as an improvement in the accuracy of
+                smooth bore muskets.
+              </h6>
+              <p>RENEW</p>
+              <span>From: <small>Narnia</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">57$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/result8.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Kidding bobby</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                Their greater range was also considered to be of little
+                practical use, since the smoke from black powder quickly
+                obscured the battlefield
+              </h6>
+              <p>USABLE</p>
+              <span>From: <small>Serbia</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">163$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="col-12 col-sm-6 col-md-3 mb-2">
+          <div class="card col-card">
+            <!-- Card image -->
+            <img class="card-img-top small-img" src="assets/img/result30.jpg" alt="Card image cap" />
+
+            <!-- Card content -->
+            <div class="card-body collect-card">
+              <!-- Title -->
+              <h5 class="card-title">Machine gun</h5>
+              <!-- Text -->
+              <h6 class="card-text">
+                The performance of early muskets defined the style of warfare
+                at the time. Due to the lack of accuracy, soldiers were
+                deployed in long lines
+              </h6>
+              <p>NEW</p>
+              <span>From: <small>Lithuania</small></span>
+              <!-- Button -->
+              <div class="card-bottom d-flex justify-content-between">
+                <div class="btn-group dropup">
+                  <a href="#" class="btn btn-sm plus-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Add to Collection</a>
+                    <a class="dropdown-item" href="#">Send a Message</a>
+                    <a class="dropdown-item" href="#">More Details</a>
+                  </div>
+                </div>
+                <p class="card-price">387$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+      </article>
+    </section>
+  </main>
+  <!-- #region FOOTER WITH NAV LINKS AND INFO BLOCK-->
+  <footer class="container-fluid">
+    <section class="row footer">
+      <div class="footer-left col-12 col-md-3">
+        <div class="footer-logo">
+          <a href="#"
+            class="navbar-logo d-flex text-decoration-none align-items-center bot-logo justify-content-center">
+            <img class="rounded" width="50" src="assets/img/magicball.jpg" alt="magic ball logo" />
+            WEAPOLD</a>
+          <p>
+            A weapon, arm or armament is any implement or device that can be
+            used with intent to inflict damage or harm. Weapons are used to
+            increase the efficacy and efficiency of activities such as
+            hunting, crime, law enforcement, self-defense, and warfare. In
+            broader context, weapons may be construed to include anything used
+            to gain a tactical, strategic, material or mental advantage over
+            an adversary or enemy target.
+          </p>
+        </div>
+      </div>
+      <div class="footer-center col-12 col-md-3">
+        <h5 class="col-12 pink head">CATEGORIES</h5>
+        <div class="list-left">
+          <ul>
+            <li><a href="#" class="footer-link">Real estate</a></li>
+            <li><a href="#" class="footer-link">Automotives</a></li>
+            <li><a href="#" class="footer-link">Electronics</a></li>
+            <li><a href="#" class="footer-link">Clothing</a></li>
+            <li><a href="#" class="footer-link">Fashion</a></li>
+            <li><a href="#" class="footer-link">Kids</a></li>
+            <li><a href="#" class="footer-link">Food</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-right col-12 col-md-3">
+        <h5 class="pink head">NAVIGATION</h5>
+        <ul>
+          <li><a href="./index.html" class="footer-link">HOME</a></li>
+          <li><a href="#" class="footer-link">Sign in</a></li>
+          <li><a href="#" class="footer-link">Sign up</a></li>
+          <li><a href="#" class="footer-link">Terms</a></li>
+          <li><a href="#" class="footer-link">Conditions</a></li>
+          <li><a href="#" class="footer-link">FAQ</a></li>
+          <li><a href="#" class="footer-link">Help</a></li>
+        </ul>
+      </div>
+      <div class="footer-end col-12 col-md-3">
+        <div class="footbtn mb-2">
+          <h5 class="pink">COUNTRY</h5>
+          <a href="#" class="btn btn-sm btn-foot">Latvia</a>
+        </div>
+        <div class="footbtn mb-2">
+          <h5 class="pink">LANGUAGE</h5>
+          <a href="#" class="btn btn-sm btn-foot">Latvian</a>
+        </div>
+        <div class="footbtn">
+          <h5 class="pink">CURRENCY</h5>
+          <a href="#" class="btn btn-sm btn-foot">EURO</a>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- #region BOTTOM COPYRIGHT AND SOCIAL LINKS-->
+  <div class="bottom" id="bottom">
+    <p class="float-left">
+      Copyright&copy; 2020 By Igor for Microverse. Design reflection of
+      Mohammed Awad
+    </p>
+    <ul class="float-right">
+      <li>
+        <a href="#"><i class="fab fa-yahoo"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script src="assets/scripts/script.js"></script>
+</body>
+
 </html>
