@@ -112,3 +112,35 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.col-che {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4%;
+  padding: 10px;
+  margin-bottom: 33px;
+  border: 1px solid #dfdfdf;
+}
+
+.right-che {
+  border-radius: 0 10px 10px 0;
+}
+
+.left-che {
+  border-radius: 10px 0 0 10px;
+}
+
+.link-che {
+  color: $dark;
+
+  &:hover {
+    text-decoration: none;
+    color: $pink;
+  }
+}
+
+.complex-col {
+  width: 100%;
+  display: flex;
+}
