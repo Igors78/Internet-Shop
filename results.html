@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <script src="https://kit.fontawesome.com/013fb8bd39.js" crossorigin="anonymous"></script>
+
+    <title>INTERNET SHOP</title>
+</head>
+<nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <a href="#" class="navbar-logo d-flex text-decoration-none align-items-center">
+        <img class="rounded" width="50" src="assets/img/magicball.jpg" alt="magic ball logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="./index.html" class="nav-link active"><i class="fas fa-home"></i> HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="#wwi" class="nav-link"><i class="fas fa-stroopwafel"></i> COLLECTIONS</a>
+            </li>
+            <li class="nav-item">
+                <a href="#bottom" class="nav-link"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a>
+            </li>
+            <li class="nav-item">
+                <button type="submit" class="btn btn-nav">POST AN AD</button>
+            </li>
+        </ul>
+        <h3 class="logo-text pt-1">WEAPOLD</h3>
+    </div>
+</nav>
+<header class="container-fluid d-flex flex-column align-content-center justify-content-center restop">
+    <h1 class="text-center text-white font-weight-bold">WEAPOLD</h1>
+    <h4 class="text-center text-white d-none d-sm-block">
+        Search around thousands of items waiting to be yours...
+    </h4>
+    <form class="form-inline d-flex flex-column">
+        <div class="input-group mb-3 d-flex justify-content-center">
+            <div class="input-group-prepend">
+                <label class="m-0 p-0" for="inlineFormCustomSelectPref"> </label>
+                <select class="custom-select" id="inlineFormCustomSelectPref">
+                    <option selected>Section</option>
+                    <option value="1">WW I</option>
+                    <option value="2">WW II</option>
+                    <option value="3">Miscellaneous</option>
+                </select>
+            </div>
+            <input type="text" class="form-control left-border" placeholder="Type" />
+            <input type="text" class="form-control left-border" placeholder="Country" />
+            <div class="input-group-prepend">
+                <button type="submit" class="btn btn-dark">SEARCH</button>
+            </div>
+        </div>
+    </form>
+</header>
+<main class="result-main container-fluid">
+    <section class="row results">
+        <h4 class="d-none">HIDE</h4>
+        <article class="search col-12 col-md-3 mx-auto">
+            <div class="chekboxes mx-md-4 py-2">
+                <!-- Default inline 1-->
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline1">
+                    <label class="custom-control-label" for="defaultInline1">Rent</label>
+                </div>
+
+                <!-- Default inline 2-->
+                <div class="custom-control custom-checkbox custom-control-inline pl-md-4">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline2">
+                    <label class="custom-control-label" for="defaultInline2">Ownership</label>
+                </div>
+            </div>
+            <h6 class="border-bottom ml-md-4">Type</h6>
+            <div class="checkboxes pl-md-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Masterpiece
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Refurbished
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                    <label class="form-check-label" for="defaultCheck3">
+                        Disabled
+                    </label>
+                </div>
+            </div>
+            <h6 class="border-bottom ml-md-4">Caliber</h6>
+            <div class="checkboxes ml-md-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                    <label class="form-check-label" for="defaultCheck4">
+                        .3 - 5
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                    <label class="form-check-label" for="defaultCheck5">
+                        5 - 10
+                    </label>
+                </div>
+                <!-- Material inline form -->
+                <form class="form-inline d-flex">
+
+                    <!-- Checkbox -->
+                    <div class="form-check mb-2 mr-sm-2">
+                        <input class="form-check-input" type="checkbox" id="inlineFormCheckMD">
+                        <label class="form-check-label" for="inlineFormCheckMD">
+                            Custom
+                        </label>
+                    </div>
+                    <!-- Material input -->
+                    <div class="md-form">
+                        <input type="text" class="caliber form-control form-control-sm mb-2 mr-sm-2"
+                            id="inlineFormInputName2MD" placeholder="5">
+                        <label class="sr-only" for="inlineFormInputName2MD">Name</label>
+                    </div>
+
+                </form>
+                <!-- Material inline form -->
+            </div>
+            <h6 class="border-bottom ml-md-4">Price Range</h6>
+            <div class="checkboxes ml-md-4">
+                <!-- Default unchecked -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked1">
+                    <label class="custom-control-label" for="defaultUnchecked1">10$ - 100$</label>
+                </div>
+                <!-- Default unchecked -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked2">
+                    <label class="custom-control-label" for="defaultUnchecked2">100$ - 500$</label>
+                </div>
+                <!-- Default unchecked -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked3">
+                    <label class="custom-control-label" for="defaultUnchecked3">500$ - 1000$</label>
+                </div>
+                <!-- Default unchecked -->
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked4">
+                    <label class="custom-control-label" for="defaultUnchecked4">+ 1000$</label>
+                </div>
+            </div>
+        </article>
+        <article class="total col-12 col-md-9">
+            <p class="value-total">
+                <em>137</em>
+                Results for
+                <em>"Rifle"</em>
+                in Category
+                <em>WWI</em>
+            </p>
+            <!-- #region RESULTS ITEM START-->
+            <div class="col-md-12 card d-flex flex-column flex-md-row pl-0 mx-auto align-items-start">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <div class="car-img back6 pl-0 col-md-4">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+
+                <!-- Card content -->
+                <div class="card-body col-md-8 d-flex flex-column p-2">
+                    <!-- Title -->
+                    <div class="d-flex justify-content-between">
+                        <h4 class="card-title text-secondary">Dragunov rifle</h4>
+                        <!-- Basic dropdown -->
+                        <button class="btn plus-btn dropdown-toggle mt-2" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus"></i></button>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Call</a>
+                            <a class="dropdown-item" href="#">Message</a>
+                            <a class="dropdown-item" href="#">Buy</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./index.html">Home</a>
+                        </div>
+                        <!-- Basic dropdown -->
+                    </div>
+                    <!-- Text -->
+                    <h5 class="pink font-weight-bold">Free caliber, 1938</h5>
+                    <h6 class="card-text">
+                        The Dragunov sniper rifle (formal Russian: Сна́йперская Винто́вка систе́мы Драгуно́ва образца́
+                        1963 года, Snáyperskaya Vintóvka sistém'y Dragunóva obraz'tsá 1963 goda (SVD-63), officially
+                        "Sniper Rifle, System of Dragunov, Model of the Year 1963")
+                    </h6>
+
+                    <p>By: <span class="sign"> Alyosha</span></p>
+                    <p class="text-body">Location: <span class="sign"> Siberia</span></p>
+                    <div class="d-flex justify-content-between">
+                        <p>31 Dec, 2019</p>
+                        <a href="#" class="btn pricebtn">2127$</a>
+                    </div>
+
+
+                </div>
+
+                <!-- Card -->
+            </div>
+            <!-- #region RESULTS ITEM-->
+            <div class="col-md-12 card d-flex flex-column flex-md-row pl-0 mx-auto align-items-start">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <div class="car-img back7 pl-0 col-md-4">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+
+                <!-- Card content -->
+                <div class="card-body col-md-8 d-flex flex-column p-2">
+                    <!-- Title -->
+                    <div class="d-flex justify-content-between">
+                        <h4 class="card-title text-secondary p-0">Storm rifle</h4>
+                        <!-- Basic dropdown -->
+                        <button class="btn plus-btn dropdown-toggle mt-2" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus"></i></button>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Call</a>
+                            <a class="dropdown-item" href="#">Message</a>
+                            <a class="dropdown-item" href="#">Buy</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./index.html">Home</a>
+                        </div>
+                        <!-- Basic dropdown -->
+                    </div>
+                    <!-- Text -->
+                    <h5 class="pink font-weight-bold">Small caliber, 1953</h5>
+                    <h6 class="card-text">
+                        (GRAU index 6V1 (ГРАУ Индекс 6В1)) is a semi-automatic designated marksman rifle chambered in
+                        7.62×54mmR and developed in the Soviet Union.
+                    </h6>
+
+                    <p>By: <span class="sign"> Luciano</span></p>
+                    <p class="text-body">Location: <span class="sign"> Italy</span></p>
+                    <div class="d-flex justify-content-between">
+                        <p>30 Feb, 2019</p>
+                        <a href="#" class="btn pricebtn">133$</a>
+                    </div>
+
+
+                </div>
+
+                <!-- Card -->
+            </div>
+            <!-- #region RESULTS ITEM-->
+            <div class="col-md-12 card d-flex flex-column flex-md-row pl-0 mx-auto align-items-start">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <div class="car-img back8 pl-0 col-md-4">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+
+                <!-- Card content -->
+                <div class="card-body col-md-8 d-flex flex-column p-2">
+                    <!-- Title -->
+                    <div class="d-flex justify-content-between">
+                        <h4 class="card-title text-secondary p-0">M16 rifle</h4>
+                        <!-- Basic dropdown -->
+                        <button class="btn plus-btn dropdown-toggle mt-2" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus"></i></button>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Call</a>
+                            <a class="dropdown-item" href="#">Message</a>
+                            <a class="dropdown-item" href="#">Buy</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./index.html">Home</a>
+                        </div>
+                        <!-- Basic dropdown -->
+                    </div>
+                    <!-- Text -->
+                    <h5 class="pink font-weight-bold">Floating caliber, 1955</h5>
+                    <h6 class="card-text">
+                        After discharging the last cartridge from the magazine, the bolt carrier and bolt are held back
+                        on a bolt catch that is released by pulling the cocking handle to the rear.
+                    </h6>
+
+                    <p>By: <span class="sign"> Fidel</span></p>
+                    <p class="text-body">Location: <span class="sign"> Cuba</span></p>
+                    <div class="d-flex justify-content-between">
+                        <p>7 Nov, 2018</p>
+                        <a href="#" class="btn pricebtn">50$</a>
+                    </div>
+
+
+                </div>
+
+                <!-- Card -->
+            </div>
+            <!-- #region RESULTS ITEM-->
+            <div class="col-md-12 card d-flex flex-column flex-md-row pl-0 mx-auto align-items-start">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <div class="car-img back9 pl-0 col-md-4">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+
+                <!-- Card content -->
+                <div class="card-body col-md-8 d-flex flex-column p-2">
+                    <!-- Title -->
+                    <div class="d-flex justify-content-between">
+                        <h4 class="card-title text-secondary p-0">Sniper rifle</h4>
+                        <!-- Basic dropdown -->
+                        <button class="btn plus-btn dropdown-toggle mt-2" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus"></i></button>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Call</a>
+                            <a class="dropdown-item" href="#">Message</a>
+                            <a class="dropdown-item" href="#">Buy</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./index.html">Home</a>
+                        </div>
+                        <!-- Basic dropdown -->
+                    </div>
+                    <!-- Text -->
+                    <h5 class="pink font-weight-bold">Fixed caliber, 1945</h5>
+                    <h6 class="card-text">
+                        The firing pin is a "free-floating" type and, as a result, some soft-primered ammunition had the
+                        reputation of causing a "slam fire" event.
+                    </h6>
+
+                    <p>By: <span class="sign"> Elon</span></p>
+                    <p class="text-body">Location: <span class="sign"> Arizona</span></p>
+                    <div class="d-flex justify-content-between">
+                        <p>18 Nov, 2019</p>
+                        <a href="#" class="btn pricebtn">124$</a>
+                    </div>
+
+
+                </div>
+
+                <!-- Card -->
+            </div>
+            <!-- #region RESULTS ITEM-->
+            <div class="col-md-12 card d-flex flex-column flex-md-row pl-0 mx-auto align-items-start">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <div class="car-img back10 pl-0 col-md-4">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+
+                <!-- Card content -->
+                <div class="card-body col-md-8 d-flex flex-column p-2">
+                    <!-- Title -->
+                    <div class="d-flex justify-content-between">
+                        <h4 class="card-title text-secondary p-0">Gun rifle</h4>
+                        <!-- Basic dropdown -->
+                        <button class="btn plus-btn dropdown-toggle mt-2" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus"></i></button>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Call</a>
+                            <a class="dropdown-item" href="#">Message</a>
+                            <a class="dropdown-item" href="#">Buy</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./index.html">Home</a>
+                        </div>
+                        <!-- Basic dropdown -->
+                    </div>
+                    <!-- Text -->
+                    <h5 class="pink font-weight-bold">Unknown caliber, 1938</h5>
+                    <h6 class="card-text">
+                        The barrel profile is relatively thin to save weight. Its bore is chrome-lined for increased
+                        corrosion resistance, and features 4 right-hand grooves.
+                    </h6>
+
+                    <p>By: <span class="sign"> Adolf</span></p>
+                    <p class="text-body">Location: <span class="sign"> Austria</span></p>
+                    <div class="d-flex justify-content-between">
+                        <p>22 Jun, 2019</p>
+                        <a href="#" class="btn pricebtn">333$</a>
+                    </div>
+
+
+                </div>
+
+                <!-- Card -->
+            </div>
+            <!-- #region RESULTS ITEM-->
+            <div class="col-md-12 card d-flex flex-column flex-md-row pl-0 mx-auto align-items-start">
+                <!-- Card -->
+
+                <!-- Card content -->
+                <div class="car-img back11 pl-0 col-md-4">
+                    <div class="car-img-controls">
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-left"></i></a></div>
+                      <div class="arrow"><a href="#" class="che"><i class="fas fa-chevron-right"></i></a></div>
+                    </div>
+
+                  </div>
+
+                <!-- Card content -->
+                <div class="card-body col-md-8 d-flex flex-column p-2">
+                    <!-- Title -->
+                    <div class="d-flex justify-content-between">
+                        <h4 class="card-title text-secondary p-0">MP-38 rifle</h4>
+                        <!-- Basic dropdown -->
+                        <button class="btn plus-btn dropdown-toggle mt-2" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus"></i></button>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Call</a>
+                            <a class="dropdown-item" href="#">Message</a>
+                            <a class="dropdown-item" href="#">Buy</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./index.html">Home</a>
+                        </div>
+                        <!-- Basic dropdown -->
+                    </div>
+                    <!-- Text -->
+                    <h5 class="pink font-weight-bold">Gun caliber, 1938</h5>
+                    <h6 class="card-text">
+                        The rifle is fed from a detachable curved box magazine with a 10-round capacity and the
+                        cartridges are double-stacked in a staggered zigzag pattern.
+                    </h6>
+
+                    <p>By: <span class="sign"> Klaus-Dietrich</span></p>
+                    <p class="text-body">Location: <span class="sign"> Germany</span></p>
+                    <div class="d-flex justify-content-between">
+                        <p>23 Aug, 2020</p>
+                        <a href="#" class="btn pricebtn">78$</a>
+                    </div>
+
+
+                </div>
+
+                <!-- Card -->
+            </div>
+            <!-- #region RESULTS ITEM END-->
+        </article>
+    </section>
+    <nav class="mt-4" aria-label="Page navigation example">
+        <ul class="pagination pg-blue justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link">1</a></li>
+            <li class="page-item"><a class="page-link lightened">2</a></li>
+            <li class="page-item"><a class="page-link">3</a></li>
+            <li class="page-item"><a class="page-link">...</a></li>
+            <li class="page-item"><a class="page-link">6</a></li>
+            <li class="page-item"><a class="page-link">7</a></li>
+            <li class="page-item">
+                <a class="page-link">Next</a>
+            </li>
+        </ul>
+    </nav>
+</main>
+<footer class="container-fluid">
+    <section class="row footer">
+        <div class="footer-left col-12 col-md-3">
+            <div class="footer-logo">
+                <a href="./index.html"
+                    class="navbar-logo d-flex text-decoration-none align-items-center bot-logo justify-content-center">
+                    <img class="rounded" width="50" src="assets/img/magicball.jpg" alt="magic ball logo" />
+                    WEAPOLD</a>
+                <p>
+                    A weapon, arm or armament is any implement or device that can be
+                    used with intent to inflict damage or harm. Weapons are used to
+                    increase the efficacy and efficiency of activities such as
+                    hunting, crime, law enforcement, self-defense, and warfare. In
+                    broader context, weapons may be construed to include anything used
+                    to gain a tactical, strategic, material or mental advantage over
+                    an adversary or enemy target.
+                </p>
+            </div>
+        </div>
+        <div class="footer-center col-12 col-md-3">
+            <h5 class="col-12 pink head">CATEGORIES</h5>
+            <div class="list-left">
+                <ul>
+                    <li><a href="#" class="footer-link">Real estate</a></li>
+                    <li><a href="#" class="footer-link">Automotives</a></li>
+                    <li><a href="#" class="footer-link">Electronics</a></li>
+                    <li><a href="#" class="footer-link">Clothing</a></li>
+                    <li><a href="#" class="footer-link">Fashion</a></li>
+                    <li><a href="#" class="footer-link">Kids</a></li>
+                    <li><a href="#" class="footer-link">Food</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-right col-12 col-md-3">
+            <h5 class="pink head">NAVIGATION</h5>
+            <ul>
+                <li><a href="./index.html" class="footer-link">HOME</a></li>
+                <li><a href="#" class="footer-link">Sign in</a></li>
+                <li><a href="#" class="footer-link">Sign up</a></li>
+                <li><a href="#" class="footer-link">Terms</a></li>
+                <li><a href="#" class="footer-link">Conditions</a></li>
+                <li><a href="#" class="footer-link">FAQ</a></li>
+                <li><a href="#" class="footer-link">Help</a></li>
+            </ul>
+        </div>
+        <div class="footer-end col-12 col-md-3">
+            <div class="footbtn mb-2">
+                <h5 class="pink">COUNTRY</h5><a href="#" class="btn btn-sm btn-foot">Latvia</a>
+            </div>
+            <div class="footbtn mb-2">
+                <h5 class="pink">LANGUAGE</h5><a href="#" class="btn btn-sm btn-foot">Latvian</a>
+            </div>
+            <div class="footbtn">
+                <h5 class="pink">CURRENCY</h5><a href="#" class="btn btn-sm btn-foot">EURO</a>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<div class="bottom" id="bottom">
+    <p class="float-left">Copyright&copy; 2020 By Igor for Microverse. Design reflection of Mohammed Awad</p>
+    <ul class="float-right">
+        <li><a href="#"><i class="fab fa-yahoo"></i></a></li>
+        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+    </ul>
+</div>
+
+<!-- jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+</script>
+<script src="assets/scripts/script.js"></script>
+</body>
+
+</html>

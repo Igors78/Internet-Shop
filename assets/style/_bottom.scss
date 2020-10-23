@@ -1,0 +1,25 @@
+.bottom {
+  padding: 15px;
+
+  p {
+    color: $grey;
+    font-size: 0.8em;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+
+    li {
+      margin-left: 10px;
+
+      a {
+        color: $grey;
+
+        &:hover {
+          color: $dark;
+        }
+      }
+    }
+  }
+}

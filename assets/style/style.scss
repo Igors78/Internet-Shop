@@ -1,0 +1,22 @@
+$pink: #d35266;
+$grey: #888;
+$dark: #383838;
+
+@import "fonts";
+@import "navbar";
+@import "header";
+@import "main";
+@import "collectables";
+@import "footer";
+@import "bottom";
+@import "results";
+
+body {
+  font-family: "Conv_HelveticaNeueLt", "Lucida Sans", sans-serif;
+  min-width: 280px;
+  overflow-x: hidden;
+}
+
+img {
+  object-fit: cover;
+}

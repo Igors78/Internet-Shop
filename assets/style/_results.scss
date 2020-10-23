@@ -1,0 +1,154 @@
+.restop {
+  height: 40vh;
+
+  @media only screen and (max-width: 628px) {
+    height: 50vh;
+  }
+}
+
+.search {
+  font-family: "Conv_HelveticaNeueMed", Arial, Helvetica, sans-serif;
+  background: #f6f6f6;
+  line-height: 2;
+  color: $dark;
+
+  h6 {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .caliber {
+    width: 40px;
+    height: 20px;
+  }
+}
+
+.img-result {
+  max-height: 180px;
+}
+
+.total {
+  background: #f6f6f6;
+  border: 1px solid $grey;
+  border-top: none;
+  border-bottom: none;
+  font-size: 0.8rem;
+
+  h6 {
+    color: $grey;
+    font-size: 0.8rem;
+  }
+
+  h5 {
+    font-size: 0.8rem;
+  }
+
+  .pricebtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background: $pink;
+  }
+
+  .value-total {
+    border-bottom: 1px solid $grey;
+    padding-top: 15px;
+    display: flex;
+    font-size: 1rem;
+    color: $grey;
+
+    em {
+      color: $dark;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.plus-btn {
+  color: $grey;
+  background: white;
+  border-color: $grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+
+  &:focus {
+    color: $pink;
+    background: $dark;
+  }
+}
+
+.dropdown-item {
+  &:hover {
+    color: white;
+    background: $dark;
+  }
+}
+
+.page-link {
+  color: $grey;
+
+  &:hover {
+    cursor: pointer;
+    background: $pink;
+    color: white;
+  }
+}
+
+.lightened {
+  background: $pink;
+  color: white;
+}
+
+.back6 {
+  background: url("../img/result14.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back7 {
+  background: url("../img/result15.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back8 {
+  background: url("../img/result16.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back9 {
+  background: url("../img/result17.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back10 {
+  background: url("../img/result19.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back11 {
+  background: url("../img/result20.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

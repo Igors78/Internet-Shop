@@ -1,0 +1,147 @@
+.adbtn {
+  width: 70px;
+  background: $pink;
+  color: white;
+  border-right: 1px solid black;
+}
+
+.adbtn2 {
+  min-width: 100px;
+  background: $pink;
+  color: white;
+}
+
+.card-title {
+  color: $pink;
+}
+
+.sign {
+  color: $grey;
+  font-style: italic;
+}
+
+.pricing {
+  align-self: flex-end;
+}
+
+.btn-collect {
+  color: $pink;
+}
+
+.controlche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid $grey;
+  border-radius: 50%;
+  color: $pink;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background: $dark;
+  }
+}
+
+.chevron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.car-img {
+  position: relative;
+  height: 280px;
+  margin-top: 10px;
+}
+
+.car-img-controls {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.che {
+  color: $pink;
+  width: 20px;
+  height: 20px;
+  background: $dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.back1 {
+  background: url("../img/result7.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back2 {
+  background: url("../img/result6.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back3 {
+  background: url("../img/result5.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back4 {
+  background: url("../img/result4.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back5 {
+  background: url("../img/result3.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.col-che {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4%;
+  padding: 10px;
+  margin-bottom: 33px;
+  border: 1px solid #dfdfdf;
+}
+
+.right-che {
+  border-radius: 0 10px 10px 0;
+}
+
+.left-che {
+  border-radius: 10px 0 0 10px;
+}
+
+.link-che {
+  color: $dark;
+
+  &:hover {
+    text-decoration: none;
+    color: $pink;
+  }
+}
+
+.complex-col {
+  width: 100%;
+  display: flex;
+}
