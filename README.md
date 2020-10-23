@@ -45,7 +45,7 @@ To get a local copy up and running follow these simple example steps.
 - Open the command line terminal
 ### Install
 - Go to your preferred directory
-- Run [ ```git clone https://github.com/Igors78/Internet-Shop.git```] command
+- Run  ```git clone https://github.com/Igors78/Internet-Shop.git``` command
 ### Usage
 - Open index.html file in any modern browser
 ### Run tests
